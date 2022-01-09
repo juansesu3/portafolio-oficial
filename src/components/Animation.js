@@ -15,7 +15,7 @@ const Animation = () => {
         <>
         <div id='bgc'>
 
-            <div className='IMG'>
+          
             
         <svg  id='logo' width="707" height="122" viewBox="0 0 707 122" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_2_6)">
@@ -53,7 +53,7 @@ const Animation = () => {
 </defs>
 </svg>
             </div>
-        </div>
+        
         </>
     )
 }

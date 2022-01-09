@@ -21,9 +21,11 @@ const Styleh2 = styled.p`
 `;
 
 const Parph = styled.p`
-    font-size: 20px;
-    line-height: 32px;
-    color: #A7A9BE;
+    font-size: 30px;
+    line-height: 45px;
+    color: white;
+    letter-spacing: 5px
+    width: 100px;
 
 `;
 

@@ -53,12 +53,12 @@ padding: 40px 24px ;
 border-radius:20px ;
 @media only screen and (min-width:920px){
     grid-column: 6/10;
-    grid-row: 3/9;
+    grid-row: 3/7;
 
 }
 `;
 
-const Stylh2 =styled.p`
+const Stylh2 = styled.p`
 color: #FFFE;
 font-size: 24px;
 line-height: 32px;
@@ -90,7 +90,7 @@ padding: 40px 24px ;
 border-radius:20px ;
 @media only screen and (min-width:920px){
     grid-column: 6/10;
-    grid-row: 12/18;
+    grid-row: 12/16;
 
 }
 `;
@@ -115,7 +115,7 @@ padding: 40px 24px ;
 border-radius:20px ;
 @media only screen and (min-width:920px){
     grid-column: 6/10;
-    grid-row: 21/27;
+    grid-row: 21/25;
 
 }
 
@@ -123,8 +123,10 @@ border-radius:20px ;
 
 const Contbutt = styled.div`
     display: flex;
+    /* flex-direction: column; */
+    /* position: relative; */
+    align-items: center;
     flex-direction: column;
-    position: relative;
     bottom: 0px;
 
 `;
@@ -147,7 +149,7 @@ const Buttuno = styled.button`
  
 `;
 export const Anchor = styled.a`
-
+    width: 100%;
       text-decoration:none;
       color:  #FF8906;
       background-color: #0e0d27 ;

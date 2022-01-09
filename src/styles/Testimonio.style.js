@@ -22,11 +22,12 @@ export const Gridbone = styled.div`
     font-size: 32px;
     line-height: 40px;
     background-color: #202020;
-    color: #FFFE;
+    color: #ff8906;
     grid-column: 1/11;
     grid-row: 1/2;
     position: relative;
     top: 40px;  
+    text-align:center;
     
    
     

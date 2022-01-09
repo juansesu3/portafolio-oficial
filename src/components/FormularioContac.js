@@ -1,91 +1,89 @@
 
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Grid1conct, Grid2conct, Grid3conct, Grid41conct, Grid4conct, Grid5conct, Grid6conct, Gridabuelo, Gridpapa, Stylebtnn, Styleinput, Styletextaa } from "../styles/FormularioContac.style";
 
-
+import '../styles/Animation.css'
+import emailjs from 'emailjs-com'
 
 const Formulario = () => {
 
-const [nombre, setNombre] = useState("");
-const [email, setEmail] = useState("");
-const [mensage, setMensage] = useState("");
+   
+    function sendEmail(e) {
 
-
-const handleSubmit = (e) => {
-    e.preventDefault();
-   alert("El formualario se ha enviado ")
-}
+        e.preventDefault();
+        emailjs.sendForm('service_i0ag3i8', 'template_8vchtw9',e.target,'user_OCjVRCIigN0Fd76PDUpv8'
+        ).then(res=>{
+            console.log(res);
+        }).catch(err=> console.log(err));
+        alert("Your message was sent")
+        
+    }
     return (
         <div>
             <center>
-    <Gridabuelo>{/* Grid abuelo  */}
-                     <Gridpapa onSubmit={handleSubmit} >{/* Grid papa  */}
-
-                            
-                         <Grid1conct>
-                             <h1>Contacto</h1>
-                         </Grid1conct>
+                <Gridabuelo>{/* Grid abuelo  */}
+                    <Gridpapa onSubmit={sendEmail} >{/* Grid papa  */}
 
 
+                        <Grid1conct>
+                            <h1>Contact<br /> Me</h1>
+                        </Grid1conct>
 
-                         <Grid2conct>
-                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum quod ab excepturi nulla illo. Odit!</p>
 
-                         </Grid2conct>
+
+                        <Grid2conct>
+                            <p>I would love to be part of your development team.
+                                Remember it<br/> "<strong className="color">UNION MAKE FORCE</strong>"<br/>
+                                contact me and let's talk.</p>
+
+                        </Grid2conct>
+
+
+                        <Grid3conct>
+
+                            <Styleinput
+                                type="text"
+                                id="name"
+                                name="name"
+                                // value={nombre}
+                                // onChange={(e) => setNombre(e.target.value)}
+                                placeholder="Complet Name" />
+
+                        </Grid3conct>
+
+
+                        <Grid4conct>
+                            <Styleinput
+                                type="email"
+                                id="email"
+                                name="user_email"
+                                // onChange={(e) => setEmail(e.target.value)}
+                                placeholder="Email" />
+                        </Grid4conct>
 
                         
-                         <Grid3conct>
-                             
-                              <Styleinput 
-                              type="text" 
-                              id="name"
-                              name="nombre"
-                              value={nombre}
-                              onChange={(e) => setNombre(e.target.value)}
-                              placeholder="Complet Name" />
-                              
-                         </Grid3conct>
+
+                        <Grid5conct>
+                            <Styletextaa
+                                name="message"
+                                id="mensage"
+                               
+                                cols="30" rows="10"
+                                placeholder="Message"
+                               
+                            ></Styletextaa>
+                        </Grid5conct>
 
 
-                         <Grid4conct>
-                             <Styleinput 
-                             type="text"
-                             id="email"
-                             value={email}
-                             onChange={(e) => setEmail(e.target.value)}
-                              placeholder="Email" />
-                         </Grid4conct>
+                        <Grid6conct>
+                            <Stylebtnn type="submit"  />
 
-                         {/* <Grid41conct>
-                             <Styleinput 
-                             type="text"
-                             id="email"
-                             value={email}
-                             onChange={(e) => setEmail(e.target.value)}
-                              placeholder="Correo Electronico" />
-                         </Grid41conct> */}
+                        </Grid6conct>
 
-                         <Grid5conct>
-                             <Styletextaa 
-                             name="mensaje" 
-                             id="mensage"
-                             value={mensage}
-                              cols="30" rows="10" 
-                              placeholder="Message"
-                              onChange={(e) => setMensage(e.target.value)} 
-                              ></Styletextaa>
-                         </Grid5conct>
-
-
-                         <Grid6conct>
-                             <Stylebtnn type="submit"/>
-                             
-                         </Grid6conct>
-                         
-
-                     </Gridpapa >
-             </Gridabuelo>
-             </center>
+                        
+                    </Gridpapa >
+                </Gridabuelo>
+            </center>
         </div>
     )
 }

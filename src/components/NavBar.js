@@ -3,7 +3,7 @@ import { Navbar, Nav, Container, Offcanvas, Button, Dropdown, DropdownButton, Na
 import { Link as LinkReact } from 'react-router-dom'
 import { app } from '../fb';
 
-
+import '../styles/Animation.css'
 
 const NavBar = () => {
 
@@ -100,9 +100,11 @@ console.log(window.screen.width);
                    <Nav.Link href="#action2"><LinkReact to="/technologies" style={{ textDecoration: 'none', color:'white'  }}><h1>Stack of Technologies</h1></LinkReact></Nav.Link>
  
                    <Nav.Link href="#action2"><LinkReact to="/testimonials" style={{ textDecoration: 'none', color:'white'  }}><h1>Testimonials</h1></LinkReact></Nav.Link>
-                   <Nav.Link href="#action2"><LinkReact to="/animation" style={{ textDecoration: 'none', color:'white' }}><h1>Animation</h1></LinkReact></Nav.Link>
+                   {/* <Nav.Link href="#action2"><LinkReact to="/animation" style={{ textDecoration: 'none', color:'white' }}><h1>Animation</h1></LinkReact></Nav.Link> */}
                    <Nav.Link href="#action2"><LinkReact to="/contact" style={{ textDecoration: 'none', color:'white' }}><h1>Contact Me</h1></LinkReact></Nav.Link>
+                 <Nav.Link href="#action2"><LinkReact to="/footer" style={{ textDecoration: 'none', color:'white' }}><h1>Footer</h1></LinkReact></Nav.Link>
                  </center>
+
             
                </Nav>
  

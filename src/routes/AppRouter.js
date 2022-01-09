@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from '../App';
 import Animation from '../components/Animation';
+import Footer from '../components/Footer';
 import Formulario from '../components/FormularioContac';
 import Hero from '../components/Hero';
 import NavBar from '../components/NavBar';
@@ -24,7 +25,7 @@ const AppRouter = () => {
                 <Route path="/technologies" element={<StactTechnologies/>}/>
                 <Route path="/testimonials" element={<Testimonios/>}/>
                 <Route path="/contact" element={<Formulario/>}/>
-                <Route path="/animation" element={<Animation/>}/>
+                <Route path="/footer" element={<Footer/>}/>
             </Routes>
             </BrowserRouter>
         </div>

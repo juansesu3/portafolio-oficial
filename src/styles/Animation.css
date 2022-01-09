@@ -27,7 +27,7 @@ body{
 }
 .Img{
     width: 20px;
-   
+  
 
 }
 
@@ -99,4 +99,20 @@ body{
     to{
         fill: white;
     }
+}
+
+.altura{
+    color: black;
+    height: 500px;
+}
+.altura2{
+    color: white;
+    height: 550px;
+}
+.altura3{
+    color: black;
+    height: 1050px;
+}
+.color{
+    color:#ff8906;
 }

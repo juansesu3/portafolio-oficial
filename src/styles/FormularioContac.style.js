@@ -6,7 +6,7 @@ export const Gridabuelo = styled.div`
     display: grid;
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(20, 1fr);
-    margin-top:56px;
+    margin-top:0px;
     
 
 
@@ -33,7 +33,7 @@ export const Gridpapa = styled.form`
 `;
 export const Grid1conct = styled.div`
     background-color: #202020 ;
-    color: #FFFE;
+    color: #ff8906;
     grid-column: 1/11;
     grid-row: 1/3;
     font-style: normal;
@@ -46,11 +46,11 @@ export const Grid1conct = styled.div`
 `;
 export const Grid2conct = styled.div`
     background-color: #202020 ;
-    color: #A7A9BE;
+    color: white;
     grid-column: 1/11;
     grid-row: 2/4;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 20px;
     line-height: 32px;
     padding: 10px 40px;
