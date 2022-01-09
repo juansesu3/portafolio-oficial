@@ -6,8 +6,9 @@ const Lora = styled.div`
 
 `;
 
-const Titulo = styled.p`
-    font-size: 32px;
+const Titulo = styled.h1`
+    font-size: 40px;
+    
     line-height: 50px;
     padding: 0PX 20px;
     color: #000;
@@ -50,6 +51,11 @@ grid-column: 2/10;
 grid-row: 3/9;
 padding: 40px 24px ;
 border-radius:20px ;
+@media only screen and (min-width:920px){
+    grid-column: 6/10;
+    grid-row: 3/9;
+
+}
 `;
 
 const Stylh2 =styled.p`
@@ -82,6 +88,11 @@ grid-column: 2/10;
 grid-row: 12/18;
 padding: 40px 24px ;
 border-radius:20px ;
+@media only screen and (min-width:920px){
+    grid-column: 6/10;
+    grid-row: 12/18;
+
+}
 `;
 
 const Gridcinco = styled.div`
@@ -102,6 +113,12 @@ grid-column: 2/10;
 grid-row: 21/27;
 padding: 40px 24px ;
 border-radius:20px ;
+@media only screen and (min-width:920px){
+    grid-column: 6/10;
+    grid-row: 21/27;
+
+}
+
 `;
 
 const Contbutt = styled.div`

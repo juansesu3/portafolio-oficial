@@ -5,9 +5,12 @@ const Conthero = styled.div`
     margin-top: 0 auto;
     text-align: left;
     background-color: #202020;
-  margin-top:56px ;
-    
+    margin-top:56px ;
     padding: 20px;
+    @media only screen and (min-width: 900px){
+        margin-top:0px ;
+
+    }
 `;
 
 const Styleh2 = styled.p`

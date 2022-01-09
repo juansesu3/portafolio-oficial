@@ -1,6 +1,6 @@
 
 import React, {useState} from "react";
-import { Grid1conct, Grid2conct, Grid3conct, Grid4conct, Grid5conct, Grid6conct, Gridabuelo, Gridpapa, Stylebtnn, Styleinput, Styletextaa } from "../styles/FormularioContac.style";
+import { Grid1conct, Grid2conct, Grid3conct, Grid41conct, Grid4conct, Grid5conct, Grid6conct, Gridabuelo, Gridpapa, Stylebtnn, Styleinput, Styletextaa } from "../styles/FormularioContac.style";
 
 
 
@@ -42,7 +42,7 @@ const handleSubmit = (e) => {
                               name="nombre"
                               value={nombre}
                               onChange={(e) => setNombre(e.target.value)}
-                              placeholder="Nombre Completo" />
+                              placeholder="Complet Name" />
                               
                          </Grid3conct>
 
@@ -53,9 +53,17 @@ const handleSubmit = (e) => {
                              id="email"
                              value={email}
                              onChange={(e) => setEmail(e.target.value)}
-                              placeholder="Correo Electronico" />
+                              placeholder="Email" />
                          </Grid4conct>
 
+                         {/* <Grid41conct>
+                             <Styleinput 
+                             type="text"
+                             id="email"
+                             value={email}
+                             onChange={(e) => setEmail(e.target.value)}
+                              placeholder="Correo Electronico" />
+                         </Grid41conct> */}
 
                          <Grid5conct>
                              <Styletextaa 
@@ -63,7 +71,7 @@ const handleSubmit = (e) => {
                              id="mensage"
                              value={mensage}
                               cols="30" rows="10" 
-                              placeholder="Mensaje"
+                              placeholder="Message"
                               onChange={(e) => setMensage(e.target.value)} 
                               ></Styletextaa>
                          </Grid5conct>

@@ -7,9 +7,25 @@ export const Container = styled.div`
 
 
 `;
+export const ImagenesCarrousel = styled.img`
+width: 100%;
+@media (min-width: 400px){
+    width: 400px;
+    margin: auto;
+
+  
+
+}
+
+
+`;
 export const Tiulo = styled.div`
 font-size:40px ;
 font-weight:  bold;
 text-align: center;
-background: linear-gradient( 135deg, #FEB692 0%, #EA5455 100%) ;
+background: #202020;
+color: white;
+padding-bottom:10px ;
+padding-top:10px ;
+
 `;

@@ -6,7 +6,7 @@ export const Gridlayerstest = styled.div`
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(22, 1fr);
     grid-template-rows: 70px;
-    background-color: #0e0d27;
+    background-color: #202020;
     text-align: start;
     padding: 0px 20px;
     padding-bottom: 100px;
@@ -21,7 +21,7 @@ export const Gridbone = styled.div`
     font-style: normal;
     font-size: 32px;
     line-height: 40px;
-    background-color: #0e0d27;
+    background-color: #202020;
     color: #FFFE;
     grid-column: 1/11;
     grid-row: 1/2;
@@ -33,19 +33,19 @@ export const Gridbone = styled.div`
 `;
 
 export const Gridbtow = styled.div`
-    background-color: #0e0d27 ;
+    background-color: #202020 ;
     grid-column: 1/11;
     grid-row: 2/4;
 `;
 
 export const Gridthree = styled.div`
-    background-color: #0e0d27 ;
+    background-color: #202020 ;
     grid-column: 1/11;
     grid-row: 4/6;
 `;
 
 export const Gridbfour = styled.div`
-    background-color: #0e0d27 ;
+    background-color:#202020 ;
     grid-column: 1/11;
     grid-row: 6/8;
 `;
@@ -108,6 +108,9 @@ export const Imagess = styled.img`
 
     width: 30%;
     margin-top: 0px;
+    @media only screen and (min-width:480px){
+        width: 130px;
+    }
 
 
 `;

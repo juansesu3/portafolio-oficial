@@ -51,7 +51,7 @@ const NavBar = () => {
   }, [])
 
 
-
+console.log(window.screen.width);
 
   return (
     <div>
@@ -63,8 +63,91 @@ const NavBar = () => {
            
          </form> */}
 
+         {(window.screen.width) > 900
+         ?(<Navbar bg="dark" expand={false}>
+         <Container fluid>
+         <Dropdown>
+     <Dropdown.Toggle id="dropdown-button-dark-example1" variant="secondary">
+       Curriculum
+     </Dropdown.Toggle>
+ 
+     <Dropdown.Menu  variant="light">
+       <Dropdown.Item href="#/action-1" active>
+       <Navbar.Brand ><a href="https://firebasestorage.googleapis.com/v0/b/portafolio-b0d04.appspot.com/o/CV%20Juan%20Sebastian%20Suarez%20Ramirez%20(3).pdf?alt=media&token=8fa06e58-4d9e-427a-9293-0a050da34e05" target="_blank" download="CV Juan Sebastian Suarez Ramirez" ><Button variant="secondary">English</Button></a></Navbar.Brand>
+       </Dropdown.Item>
+       <Dropdown.Item href="#/action-2"> 
+       <Navbar.Brand><a href="https://firebasestorage.googleapis.com/v0/b/portafolio-b0d04.appspot.com/o/CV%20Juan%20Sebastian%20Suarez%20Ramirez%20(4).pdf?alt=media&token=d779eac8-360c-4628-9419-077d4d7b74c4" target="_blank" download="CV Juan Sebastian Suarez Ramirez" ><Button variant="secondary">Spanish</Button></a></Navbar.Brand></Dropdown.Item>
+      
+     </Dropdown.Menu>
+   </Dropdown>
+ 
+           <Navbar.Toggle aria-controls="offcanvasNavbar" />
+           <Navbar.Offcanvas
+             id="offcanvasNavbar"
+             aria-labelledby="offcanvasNavbarLabel"
+             placement="end"
+           >
+             <Offcanvas.Header className="bg-dark"  closeButton>
+            
+             </Offcanvas.Header>
+            
+             <Offcanvas.Body className="bg-dark"   >
+ 
+               <Nav   className="justify-content-end flex-grow-1 pe-3 bg-dark">
+                 <center>
+                   <Nav.Link href="#action1"><LinkReact to="/" style={{ textDecoration: 'none', color:'white'  }} ><h1>Home</h1></LinkReact></Nav.Link>
+                   <Nav.Link href="#action2"><LinkReact to="/projects" style={{ textDecoration: 'none', color:'white'  }}><h1>Projects</h1></LinkReact></Nav.Link>
+                   <Nav.Link href="#action2"><LinkReact to="/technologies" style={{ textDecoration: 'none', color:'white'  }}><h1>Stack of Technologies</h1></LinkReact></Nav.Link>
+ 
+                   <Nav.Link href="#action2"><LinkReact to="/testimonials" style={{ textDecoration: 'none', color:'white'  }}><h1>Testimonials</h1></LinkReact></Nav.Link>
+                   <Nav.Link href="#action2"><LinkReact to="/animation" style={{ textDecoration: 'none', color:'white' }}><h1>Animation</h1></LinkReact></Nav.Link>
+                   <Nav.Link href="#action2"><LinkReact to="/contact" style={{ textDecoration: 'none', color:'white' }}><h1>Contact Me</h1></LinkReact></Nav.Link>
+                 </center>
+            
+               </Nav>
+ 
+             </Offcanvas.Body>
+           </Navbar.Offcanvas>
+ 
+         </Container>
+       </Navbar>)
+         :(<Navbar fixed="top" variant="dark" bg="dark" expand="lg">
+         <Container fluid>
+         <Dropdown>
+         <Dropdown.Toggle id="dropdown-button-dark-example1" variant="secondary">
+             Curriculum
+           </Dropdown.Toggle>
+       
+           <Dropdown.Menu variant="dark">
+             <Dropdown.Item href="#/action-1" active>
+             <Navbar.Brand><a href="https://firebasestorage.googleapis.com/v0/b/portafolio-b0d04.appspot.com/o/CV%20Juan%20Sebastian%20Suarez%20Ramirez%20(3).pdf?alt=media&token=8fa06e58-4d9e-427a-9293-0a050da34e05" target="_blank" download="CV Juan Sebastian Suarez Ramirez" ><Button variant="secondary">English</Button></a></Navbar.Brand>
+             </Dropdown.Item>
+             <Dropdown.Item href="#/action-2"> 
+             <Navbar.Brand><a href="https://firebasestorage.googleapis.com/v0/b/portafolio-b0d04.appspot.com/o/CV%20Juan%20Sebastian%20Suarez%20Ramirez%20(4).pdf?alt=media&token=d779eac8-360c-4628-9419-077d4d7b74c4" target="_blank" download="CV Juan Sebastian Suarez Ramirez" ><Button variant="secondary">Spanish</Button></a></Navbar.Brand></Dropdown.Item>
+            
+           </Dropdown.Menu>
+           </Dropdown>
+           <Navbar.Toggle aria-controls="navbar-dark-example" />
+           <Navbar.Collapse id="navbar-dark-example">
+             <Nav><center>
+             
+                  <br/>
+                         <Nav.Link href="#action1"><LinkReact to="/" style={{ textDecoration: 'none', color:'white'  }} ><h1>Home</h1></LinkReact></Nav.Link>
+                         <Nav.Link href="#action2"><LinkReact to="/projects" style={{ textDecoration: 'none', color:'white'  }}><h1>Projects</h1></LinkReact></Nav.Link>
+                         <Nav.Link href="#action2"><LinkReact to="/technologies" style={{ textDecoration: 'none', color:'white'  }}><h1>Stack of Technologies</h1></LinkReact></Nav.Link>
+       
+                         <Nav.Link href="#action2"><LinkReact to="/testimonials" style={{ textDecoration: 'none', color:'white'  }}><h1>Testimonials</h1></LinkReact></Nav.Link>
+                         <Nav.Link href="#action2"><LinkReact to="/animation" style={{ textDecoration: 'none', color:'white' }}><h1>Animation</h1></LinkReact></Nav.Link>
+                         <Nav.Link href="#action2"><LinkReact to="/contact" style={{ textDecoration: 'none', color:'white' }}><h1>Contact Me</h1></LinkReact></Nav.Link>
+                         </center>
+               
+             </Nav>
+           </Navbar.Collapse>
          
-<Navbar fixed="top" variant="dark" bg="dark" expand="lg">
+         </Container>
+       </Navbar>
+       )}
+{/* <Navbar fixed="top" variant="dark" bg="dark" expand="lg">
   <Container fluid>
   <Dropdown>
   <Dropdown.Toggle id="dropdown-button-dark-example1" variant="secondary">
@@ -98,7 +181,7 @@ const NavBar = () => {
     </Navbar.Collapse>
   
   </Container>
-</Navbar>
+</Navbar> */}
 
 {/* 
       <Navbar bg="light" expand={false}>

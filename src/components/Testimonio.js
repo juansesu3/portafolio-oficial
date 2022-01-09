@@ -13,7 +13,7 @@ const Testimonios = () => {
              <Gridlayerstest>
 
 <Gridbone>
-    Testimonios 
+    Testimonials
 
 </Gridbone>
     <Gridbtow>

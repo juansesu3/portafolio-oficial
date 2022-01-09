@@ -2,7 +2,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { Anchor, Butt1, Butt2, Contbu, Fontlora, Grid1, Grid2, Grid3, Grid4, Grid5, Grid6, Gridstyle, Sth2, Stp, Textstyle, Tittle } from '../styles/Projects.styles'
-
+import Animation from './Animation'
 
 
 
@@ -13,10 +13,10 @@ const Projects = () => {
         <div>
 
             <Fontlora>
-
+            
                 <Tittle>
-                    <p >It looks like magic<br />
-                        works with code.</p>
+                    It looks like magic,<br />
+                        works with code.
                 </Tittle>
 
                 <Textstyle>
@@ -67,7 +67,7 @@ const Projects = () => {
                     {/* <Anchor className='anchor' href='https://juansesu3.github.io/Block-master-/' target="_blank">Ver Mas Proyectos</Anchor> */}
 
                     <Grid5/>
-
+<br/><br/><br/><br/>
                      <Grid6>
                      <div>
                             <Sth2>
