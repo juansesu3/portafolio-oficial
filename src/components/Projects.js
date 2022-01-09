@@ -74,8 +74,8 @@ const Projects = () => {
                                 </Stp>
                                 <br/><br/>  <br/><br/><br/>
                                 <Contbu>
-                                    <Anchor href='https://github.com/juansesu3/Block-master-.git' target="_blank">See Code</ Anchor>
-                                    <Anchor href='https://juansesu3.github.io/Block-master-/' target="_blank">See Complete Project</Anchor>
+                                    <Anchor href='https://github.com/juansesu3/Bloack-Master' target="_blank">See Code</ Anchor>
+                                    <Anchor href=' https://juansesu3.github.io/Bloack-Master/' target="_blank">See Complete Project</Anchor>
                                 </Contbu>
 
                             </div>
