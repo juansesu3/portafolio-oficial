@@ -44,6 +44,7 @@ export const Image = styled.img`
    width: 40vh;
    border-radius:10px;
    padding: 0 auto;
+   margin-top:10px;
 
    /* margin-left: 0 auto;
    margin-right: 0 auto; */
