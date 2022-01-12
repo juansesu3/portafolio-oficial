@@ -126,6 +126,16 @@ Technologies<br/> in<br/>  which <br/> I have experience
  
     </Carousel.Caption>
   </Carousel.Item>
+  <Carousel.Item>
+    <ImagenesCarrousel 
+      className="d-block "
+      src="https://res.cloudinary.com/dv08oqgvx/image/upload/v1642006257/AmazonasSprint3/nzhuu57zetl7ssbqx9yi.png"
+      alt="First slide"
+    />
+    <Carousel.Caption>
+ 
+    </Carousel.Caption>
+  </Carousel.Item>
 </Carousel>
 </Container>
         </div>

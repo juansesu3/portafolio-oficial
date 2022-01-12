@@ -73,10 +73,10 @@ console.log(window.screen.width);
  
      <Dropdown.Menu  variant="light">
        <Dropdown.Item href="#/action-1" active>
-       <Navbar.Brand ><a href="https://firebasestorage.googleapis.com/v0/b/portafolio-b0d04.appspot.com/o/CV%20Juan%20Sebastian%20Suarez%20Ramirez%20(3).pdf?alt=media&token=8fa06e58-4d9e-427a-9293-0a050da34e05" target="_blank" download="CV Juan Sebastian Suarez Ramirez" ><Button variant="secondary">English</Button></a></Navbar.Brand>
+       <Navbar.Brand ><a href="https://firebasestorage.googleapis.com/v0/b/portafolio-b0d04.appspot.com/o/CV%20Juan%20Sebastian%20Suarez%20Ramirez%20Eng.pdf?alt=media&token=49da4a5e-66d3-414e-8f10-e58e17c80455" target="_blank" ><Button variant="secondary">English</Button></a></Navbar.Brand>
        </Dropdown.Item>
        <Dropdown.Item href="#/action-2"> 
-       <Navbar.Brand><a href="https://firebasestorage.googleapis.com/v0/b/portafolio-b0d04.appspot.com/o/CV%20Juan%20Sebastian%20Suarez%20Ramirez%20(4).pdf?alt=media&token=d779eac8-360c-4628-9419-077d4d7b74c4" target="_blank" download="CV Juan Sebastian Suarez Ramirez" ><Button variant="secondary">Spanish</Button></a></Navbar.Brand></Dropdown.Item>
+       <Navbar.Brand><a href="https://firebasestorage.googleapis.com/v0/b/portafolio-b0d04.appspot.com/o/CV%20Juan%20Sebastian%20Suarez%20Ramirez%20Spa.pdf?alt=media&token=89168263-38c4-4cfa-9cef-f3b33b26d489" target="_blank" ><Button variant="secondary">Spanish</Button></a></Navbar.Brand></Dropdown.Item>
       
      </Dropdown.Menu>
    </Dropdown>
