@@ -16,7 +16,7 @@ const Hero = () => {
                         <div>
                             <ScrollContainer>
                                 <ScrollPage page={0}>
-                                    <Animator animation={batch(Sticky(35, 25), Fade(), MoveOut())}>
+                                    <Animator animation={batch(Sticky(37, 25), Fade(), MoveOut())}>
 
                                         <Image src="https://res.cloudinary.com/dv08oqgvx/image/upload/v1640974698/AmazonasSprint3/bmrjpbdupye3b9lwysml.jpg" alt="" />
 
@@ -31,7 +31,7 @@ const Hero = () => {
                         <H2>
                             <ScrollContainer>
                                 <ScrollPage page={0}>
-                                    <Animator animation={batch(Sticky(35, 55), Fade(), MoveOut())}>
+                                    <Animator animation={batch(Sticky(35, 60), Fade(), MoveOut())}>
 
                                         <p>¡Hi there! 👋🏻<br />I'm Juan S. Suarez</p>
 
