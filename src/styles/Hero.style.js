@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 const Conthero = styled.div`
-    margin-top: 0 auto;
+    margin-top: 800px;
     text-align: left;
     background-color: #202020;
     margin-top:56px ;

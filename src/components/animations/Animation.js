@@ -1,5 +1,6 @@
 import React from 'react'
-import '../styles/Animation.css'
+import '../../styles/Animation.css'
+import Logo from './Logo';
 
 const Animation = () => {
     const logo = document.querySelectorAll('#logo path');
@@ -53,6 +54,8 @@ const Animation = () => {
 </defs>
 </svg>
             </div>
+
+            <Logo/>
         
         </>
     )

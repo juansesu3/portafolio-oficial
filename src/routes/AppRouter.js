@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from '../App';
-import Animation from '../components/Animation';
+import Animation from '../components/animations/Animation';
 import Footer from '../components/Footer';
 import Formulario from '../components/FormularioContac';
 import Hero from '../components/Hero';
@@ -22,6 +22,7 @@ const AppRouter = () => {
                 <Route path="/" element={<App/>}/>
                 <Route path="/home" element={<Hero/>}/>
                 <Route path="/projects" element={<Projects/>}/>
+                <Route path="/animation" element={<Animation/>}/> 
                 <Route path="/technologies" element={<StactTechnologies/>}/>
                 <Route path="/testimonials" element={<Testimonios/>}/>
                 <Route path="/contact" element={<Formulario/>}/>

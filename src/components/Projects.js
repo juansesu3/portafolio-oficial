@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { Animator, MoveIn, MoveOut, ScrollPage, ScrollContainer } from 'react-scroll-motion'
 import { Anchor, Butt1, Butt2, Contbu, Fontlora, Grid1, Grid2, Grid3, Grid4, Grid5, Grid6, Gridstyle, Sth2, Stp, Textstyle, Tittle } from '../styles/Projects.styles'
-import Animation from './Animation'
+import Animation from './animations/Animation'
 
 import '../styles/Animation.css'
 import { Ic } from '../styles/Hero.style'
