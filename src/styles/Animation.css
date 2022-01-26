@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Mochiy+Pop+P+One&family=Press+Start+2P&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
@@ -7,7 +10,7 @@
 body{
     width: 100%;
     height: 100vh;
-    /* background-color: rgb(32, 35, 48); */
+    background-color: #110e2d;
     
 }
 
@@ -15,6 +18,9 @@ body{
     background-color: white;
     margin-top: 30px;
     display: flex;
+    border-radius: 10px;
+    width: 40%;
+    height: 120px;
     
     
 }
@@ -117,5 +123,34 @@ body{
     height: 1050px;
 }
 .color{
-    color:#ff8906;
+    color:#35faff;
 }
+
+
+.font-style{
+    font-family: 'Dongle', sans-serif;
+    color: #35faff;
+    padding:2px ;
+}
+.font-style2{
+    font-family: 'Dongle', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: white;
+    /* padding:5px ; */
+}
+.font-style3{
+    font-family: 'Dongle', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: #35faff;
+    background-color: transparent;
+    padding:30px ;
+    
+}
+.pro-cont {
+    background-color: transparent;
+}
+

@@ -2,7 +2,9 @@ import styled from "styled-components";
 
 
 export const Gridabuelo = styled.div`
- background: linear-gradient( 135deg, #FEB692 0%, #EA5455 100%) ;
+    background: linear-gradient( 
+135deg
+,#35faff 0%,hsl(242deg 88% 66%) 100%);
     display: grid;
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(20, 1fr);
@@ -14,7 +16,7 @@ export const Gridabuelo = styled.div`
 
 export const Gridpapa = styled.form`
     
-    background-color: #0e0d27 ;
+    background-color: #110e2d ;
     grid-column: 2/20;
     grid-row: 2/20;
 
@@ -32,8 +34,8 @@ export const Gridpapa = styled.form`
 
 `;
 export const Grid1conct = styled.div`
-    background-color: #202020 ;
-    color: #ff8906;
+    background-color: #110e2d ;
+    color: #35faff;
     grid-column: 1/11;
     grid-row: 1/3;
     font-style: normal;
@@ -45,7 +47,7 @@ export const Grid1conct = styled.div`
 
 `;
 export const Grid2conct = styled.div`
-    background-color: #202020 ;
+    background-color: #110e2d ;
     color: white;
     grid-column: 1/11;
     grid-row: 2/4;
@@ -57,37 +59,37 @@ export const Grid2conct = styled.div`
 
 `;
 export const Grid3conct = styled.div`
-background-color: #202020 ;
+background-color: #110e2d ;
     grid-column: 1/11;
     grid-row: 4/6;
 `;
 export const Grid4conct = styled.div`
-background-color: #202020 ;
+background-color: #110e2d ;
     grid-column: 1/11;
     grid-row: 5/6;
 
 `;
 export const Grid41conct = styled.div`
-background-color: #202020 ;
+background-color: #110e2d;
     grid-column: 1/11;
     grid-row: 6/9;
 
 `;
 export const Grid5conct = styled.div`
-background-color: #202020 ;
+background-color: #110e2d;
     grid-column: 1/11;
     grid-row: 6/9;
 
 `;
 export const Grid6conct = styled.div`
-background-color: #202020 ;
+background-color: #110e2d ;
     grid-column: 1/11;
     grid-row: 9/12;
    
 `;
 export const Stylebtnn = styled.input`
     
-    background-color:  #FF8906;
+    background-color: #29b3c4 ;
     color: #FFFE ;
     font-size: 16px;
     font-weight: bold;
@@ -95,6 +97,7 @@ export const Stylebtnn = styled.input`
     height: 48px;
     width: 80%;
     margin: 10px;
+    border-radius:10px;
     @media only screen and (min-width: 760px){
         width: 600px;
     }

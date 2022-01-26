@@ -3,6 +3,7 @@ import { Conth, Fontlora, H2, Ic, Image, Par } from '../styles/Hero.style'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 import { Animator, batch, Fade, FadeIn, MoveIn, MoveOut, ScrollContainer, ScrollPage, Sticky, Zoom, ZoomIn } from 'react-scroll-motion'
+import Logo from './animations/Logo';
 import '../styles/Animation.css'
 
 
@@ -16,9 +17,10 @@ const Hero = () => {
                         <div>
                             <ScrollContainer>
                                 <ScrollPage page={0}>
-                                    <Animator animation={batch(Sticky(37, 25), Fade(), MoveOut())}>
+                                    <Animator animation={batch(Sticky(47.5, 35), Fade(), MoveOut())}>
 
-                                        <Image src="https://res.cloudinary.com/dv08oqgvx/image/upload/v1640974698/AmazonasSprint3/bmrjpbdupye3b9lwysml.jpg" alt="" />
+                                        {/* <Image src="https://res.cloudinary.com/dv08oqgvx/image/upload/v1640974698/AmazonasSprint3/bmrjpbdupye3b9lwysml.jpg" alt="" /> */}
+                                        <Logo/>
 
                                     </Animator>
 
@@ -30,10 +32,11 @@ const Hero = () => {
 
                         <H2>
                             <ScrollContainer>
-                                <ScrollPage page={0}>
+                                {(window.screen.width) > 900 }
+                                <ScrollPage page={1}>
                                     <Animator animation={batch(Sticky(35, 60), Fade(), MoveOut())}>
 
-                                        <p>¡Hi there! 👋🏻<br />I'm Juan S. Suarez</p>
+                                        <span className='font-style2'>¡Hi there! 👋🏻</span><br /><span className='font-style'>My name is</span><br /><span className='font-style2'> Juan Sebastian Suarez <br/>I'm a front-end web developer with an emphasis on React.js</span>
 
                                     </Animator>
 
@@ -45,13 +48,16 @@ const Hero = () => {
                         <Par>
                             <ScrollContainer>
                                 
-                                <ScrollPage  page={1}>
-                                    <Animator animation={batch(Sticky(40, 65), Fade(), MoveOut(0, -200))}>
-
-                                        I have decided to educate myself as a
+                                <ScrollPage  page={2}>
+                                    <Animator animation={batch(Sticky(35, 65), Fade(), MoveOut(0, -200))}>
+                                        <p>
+                                        <span className='font-style2'>
+                                            I have decided to educate myself as a
                                             front-end web designer/developer.
-                                            Now I work hard every day to become the best version of myself and become a full stack web designer and developer.
-
+                                            Now I work hard every day to become the 
+                                            best version of myself and become a full stack web designer and developer.
+                                            </span>
+                                            </p>
                                     </Animator>
 
                                 </ScrollPage>

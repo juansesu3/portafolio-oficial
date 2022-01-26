@@ -9,7 +9,7 @@ import NavBar from '../components/NavBar';
 import Projects from '../components/Projects';
 import StactTechnologies from '../components/StactTechnologies';
 import Testimonios from '../components/Testimonio';
-import { Position } from '../styles/NavBar.style';
+// import { Position } from '../styles/NavBar.style';
 
 
 const AppRouter = () => {

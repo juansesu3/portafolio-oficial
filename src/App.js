@@ -18,7 +18,7 @@ function App() {
       {/* <NavBar/> */}
       <Hero/>
       <Projects/>
-      <Animation/>
+      {/* <Animation/> */}
       <StactTechnologies/>
       {/* <Servicios/> */}
       <Testimonios/>

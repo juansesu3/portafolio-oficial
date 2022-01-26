@@ -55,7 +55,7 @@ const Animation = () => {
 </svg>
             </div>
 
-            <Logo/>
+            {/* <Logo/> */}
         
         </>
     )

@@ -17,23 +17,24 @@ const Projects = () => {
                 <ScrollContainer>
                     <div className='altura'>
                     <ScrollPage style={{height:"450px"}} page={3}>
-                        <div style={{ display: "flex", justifyContent: "center", alignItems: "flex-start", height: "100%" }} >
-                            <span >
+                        <div style={{ display: "flex", justifyContent: "center", alignItems: "flex-start", height: "100%"  }} >
+                            <span  >
                                 <Animator animation={MoveIn(-1000, 0)}> <Tittle>
-                                    It looks like magic,<br />
-                                    works with code.
+                                   <span className='font-style3'>It looks like magic,<br />
+                                     works with code.</span>
                                 </Tittle></Animator>
                                 <Animator animation={MoveIn(1000, 0)}>  <Textstyle>
-                                    <p>Throughout my career as Fronted, I have had the privilege of working on incredible and challenging projects.</p>
+                                    <span  className='font-style2' >Throughout my career as Fronted, I have had the privilege of working on incredible and challenging projects.</span >
                                 </Textstyle></Animator>
                                 <Animator animation={MoveIn(-1000, 0)}>  <Textstyle>
                                     <center>
-                                    <br/> <br/> <br/><h1>PPROJECTS</h1><FontAwesomeIcon/></center>
+                                    <br/> <br/> <br/> <Animation/><FontAwesomeIcon/></center>
                                 </Textstyle></Animator>
                                 <Animator animation={MoveIn(1000, 0)}>  <Textstyle>
                                     <center>
                                         <Ic>
                                     <FontAwesomeIcon icon={faArrowDown} /></Ic></center>
+                                   
                                 </Textstyle></Animator>
                                 {/* <Animator animation={MoveOut(1000, 0)}>Good bye ✋🏻</Animator>
                                 <Animator animation={MoveOut(-1000, 0)}>See you 💛</Animator> */}
@@ -72,7 +73,7 @@ const Projects = () => {
                                 <Stp>
                                 Block Master is the most recent content platform on the market but at the same time the most powerful. Discover all its functions in this great design project.
                                 </Stp>
-                                <br/><br/>  <br/><br/><br/>
+                                <br/><br/><br/><br/><br/>
                                 <Contbu>
                                     <Anchor href='https://github.com/juansesu3/Bloack-Master' target="_blank">See Code</ Anchor>
                                     <Anchor href=' https://juansesu3.github.io/Bloack-Master/' target="_blank">See Complete Project</Anchor>

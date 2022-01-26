@@ -22,7 +22,6 @@ const Testimonios = () => {
         <span>
             <Imagess className='imagen' src="https://res.cloudinary.com/dv08oqgvx/image/upload/v1641348678/AmazonasSprint3/k1y96c2kl9hzcpayxnyo.png" alt="" />
         </span>
-
         <Stylecommitp>Sebastian has been a very committed person in his geek academy training
              process, he has shown sincerity in his strengths in order to acquire the 
              necessary technical knowledge to become software development, I have seen 

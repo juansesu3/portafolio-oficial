@@ -12,7 +12,7 @@ const Titulo = styled.h1`
     line-height: 50px;
     padding: 0PX 20px;
     color: #000;
-    background-color: white;
+    background-color: transparent;
 
 `;
 
@@ -26,6 +26,7 @@ const Text = styled.p`
 
 const Gridlayers = styled.section`
     display: grid;
+    margin-top:250px ;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(27, 1fr);
     
@@ -45,12 +46,13 @@ width: 100%;
 `;
 
 const Griddos = styled.div`
-background-color: #3c3c3ce8;
+background-color: #000b53;
 box-shadow: 12px 16px 32px #0e0d2776;
 grid-column: 2/10;
 grid-row: 3/9;
 padding: 40px 24px ;
 border-radius:20px ;
+border:1px solid #35faff;
 @media only screen and (min-width:920px){
     grid-column: 6/10;
     grid-row: 3/7;
@@ -77,17 +79,17 @@ background-image: url("https://res.cloudinary.com/dv08oqgvx/image/upload/v163629
 background-repeat: no-repeat;
 grid-column: 2/10;
 grid-row: 10/20;
-/* margin-left: 15px; */
-/* border-radius:20px ;  */
+
 `;
 
 const Gridcuatro = styled.div`
-background-color: #3c3c3ce8;
+background-color: #000b53;
 box-shadow: 12px 16px 32px #0e0d2776;
 grid-column: 2/10;
 grid-row: 12/18;
 padding: 40px 24px ;
 border-radius:20px ;
+border:1px solid #35faff;
 @media only screen and (min-width:920px){
     grid-column: 6/10;
     grid-row: 12/16;
@@ -102,17 +104,18 @@ background-repeat: no-repeat;
 
 grid-column: 2/10;
 grid-row: 19/28;
-/* margin-left: 15px; */
+
 
 `;
 
 const Gridseis = styled.div`
-background-color:  #3c3c3ce8;
+background-color:  #000b53;
 box-shadow: 12px 16px 32px #0e0d2776;
 grid-column: 2/10;
 grid-row: 21/27;
 padding: 40px 24px ;
 border-radius:20px ;
+border:1px solid #35faff;
 @media only screen and (min-width:920px){
     grid-column: 6/10;
     grid-row: 21/25;
@@ -123,15 +126,14 @@ border-radius:20px ;
 
 const Contbutt = styled.div`
     display: flex;
-    /* flex-direction: column; */
-    /* position: relative; */
+    
     align-items: center;
     flex-direction: column;
     bottom: 0px;
 
 `;
 const Buttuno = styled.button`
-    background-color: #0e0d27 ;
+    background-color: #35faff ;
     border: 2px solid #FF8906;
     
     font-size: 16px;
@@ -140,7 +142,7 @@ const Buttuno = styled.button`
     height: 48px;
     margin: 10px;
     &:hover {
-        /* box-shadow: 0px 0px 10px white; */
+        
         background-color: #FF8906;
         color: #FFFE;
         
@@ -150,68 +152,51 @@ const Buttuno = styled.button`
 `;
 export const Anchor = styled.a`
     width: 100%;
-      text-decoration:none;
-      color:  #FF8906;
-      background-color: #0e0d27 ;
-    border: 2px solid #FF8906;
+    text-decoration:none;
+    color:  #FFf;
+    background-color:#29b3c4;
+    border: 2px solid #0d6efd;;
     text-align:center;
-  padding: 10px;
-  border-radius: 10px;
-  
-  margin-bottom: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 100px;
     font-size: 16px;
     font-weight: bold;
     line-height: 24px;
     height: 48px;
     margin: 10px;
     &:hover{
-        color: #FFFE ;
-        
-    background-color:  #FF8906;
-    border: 2px solid #0e0d27;
+    color: #FFFE ; 
+    background-color:  #000b53;
+    border: 2px solid #35faff;
     }
-
- 
-
 `;
 const Buttdos = styled.button`
-
-    
-    background-color:  #FF8906;
+    background-color: #35faff;
     color: #FFFE ;
     font-size: 16px;
     font-weight: bold;
     line-height: 24px;
     height: 48px;
     margin: 10px;
- 
-   
-
     &:hover {
         /* box-shadow: 0px 0px 10px white;      */
-        background-color: #0e0d27;
+        background-color:  #000b53;
+    border: 2px solid #35faff;
         color: #FF8906;
-        border: 2px solid #FF8906;
-    
+      
   }
   .anchor{
       padding-top: 40px;
       margin-top: 100px ;
       background: blue;
   }
-
 `;
 
 export const Image = styled.img`
-
    width: 40vh;
    border-radius:10px;
    padding: 0 auto;
-
-   /* margin-left: 0 auto;
-   margin-right: 0 auto; */
-
-
 `;
 
 

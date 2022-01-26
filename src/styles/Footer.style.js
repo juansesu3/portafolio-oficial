@@ -4,7 +4,7 @@ import styled from "styled-components";
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(4, 1fr);
-        background-color:#202020 ;
+        background-color:#110e2d ;
         color: #FFFE;
         padding: 0px 20px;
         
