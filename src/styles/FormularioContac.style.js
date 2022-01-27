@@ -18,7 +18,7 @@ export const Gridpapa = styled.form`
     
     background-color: #110e2d ;
     grid-column: 2/20;
-    grid-row: 2/20;
+    grid-row: 4/20;
 
     display: grid;
     grid-template-columns: repeat(10, 1fr);

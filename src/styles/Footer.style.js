@@ -7,6 +7,7 @@ import styled from "styled-components";
         background-color:#110e2d ;
         color: #FFFE;
         padding: 0px 20px;
+        margin-top:100px ;
         
         
         

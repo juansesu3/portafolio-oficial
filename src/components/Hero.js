@@ -49,7 +49,7 @@ const Hero = () => {
                             <ScrollContainer>
                                 
                                 <ScrollPage  page={2}>
-                                    <Animator animation={batch(Sticky(35, 65), Fade(), MoveOut(0, -200))}>
+                                    <Animator animation={batch(Sticky(45, 65), Fade(), MoveOut(0, -200))}>
                                         <p>
                                         <span className='font-style2'>
                                             I have decided to educate myself as a
