@@ -32,7 +32,9 @@ const Parph = styled.p`
 const Icono = styled.nav`
     color: #ff8906;
     font-size: 40px;
+   
 `;
+
 
 const Lora = styled.div`
     font-family: 'Lora', serif;

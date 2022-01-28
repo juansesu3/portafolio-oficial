@@ -1,13 +1,7 @@
 import React from 'react'
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJedi, faBrain} from '@fortawesome/free-solid-svg-icons';
-import { Grid1foot, Grid2foot, Grid3foot, Grid4foot, Grid5foot, Grid6foot, Gridlayoutfooter } from '../styles/Footer.style';
-
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab, faGithub, faLinkedin, faWhatsappSquare } from '@fortawesome/free-brands-svg-icons'
-import { github } from '@fortawesome/free-solid-svg-icons'
-
+import { Grid2foot, Grid3foot, Grid4foot, Grid5foot, Grid6foot, Gridlayoutfooter } from '../styles/Footer.style';
+import { faGithub, faLinkedin, faWhatsappSquare } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => {
     return (

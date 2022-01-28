@@ -26,15 +26,9 @@ const Servicios = () => {
                         <Stylpr>Aplicaciones Web Progresivas</Stylpr>
                         <Stylbt>Ver servicios de desarrollo</Stylbt>
                     </Gridb3>
-
                     <Gridb4>
-                        {/* <Stlh5>Marca</Stlh5>
-                        <Stylpr>Identidad de la Marca</Stylpr>
-                        <Stylpr>Estrategia de Marca</Stylpr>
-                        <Stylbt>Ver servicios de Marca</Stylbt> */}
                     </Gridb4>
-                
-                </Contser>{/* Contenedor  end-*/}
+                </Contser>
 
         </div>
     )

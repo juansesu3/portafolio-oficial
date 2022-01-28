@@ -1,8 +1,8 @@
-import { faArrowDown, faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
-import { Animator, MoveIn, MoveOut, ScrollPage, ScrollContainer } from 'react-scroll-motion'
-import { Anchor, Butt1, Butt2, Contbu, Fontlora, Grid1, Grid2, Grid3, Grid4, Grid5, Grid6, Gridstyle, Sth2, Stp, Textstyle, Tittle } from '../styles/Projects.styles'
+import { Animator, MoveIn,  ScrollPage, ScrollContainer } from 'react-scroll-motion'
+import { Anchor, Contbu, Fontlora, Grid1, Grid2, Grid3, Grid4, Grid5, Grid6, Gridstyle, Sth2, Stp, Textstyle, Tittle } from '../styles/Projects.styles'
 import Animation from './animations/Animation'
 
 import '../styles/Animation.css'
@@ -28,7 +28,7 @@ const Projects = () => {
                                 </Textstyle></Animator>
                                 <Animator animation={MoveIn(-1000, 0)}>  <Textstyle>
                                     <center>
-                                    <br/> <br/> <br/> <Animation/><FontAwesomeIcon/></center>
+                                    <br/><Animation/><FontAwesomeIcon/></center>
                                 </Textstyle></Animator>
                                 <Animator animation={MoveIn(1000, 0)}>  <Textstyle>
                                     <center>
@@ -36,18 +36,13 @@ const Projects = () => {
                                     <FontAwesomeIcon icon={faArrowDown} /></Ic></center>
                                    
                                 </Textstyle></Animator>
-                                {/* <Animator animation={MoveOut(1000, 0)}>Good bye ✋🏻</Animator>
-                                <Animator animation={MoveOut(-1000, 0)}>See you 💛</Animator> */}
                             </span>
                         </div>
                     </ScrollPage>
                     </div>
-
                     <Gridstyle>
-
                         <Grid1 />
                         <Grid2>
-
                             <div>
                                 <Sth2>
                                     Cv App
@@ -82,16 +77,12 @@ const Projects = () => {
                             </div>
                         </Grid4>
 
-
-
-                        {/* <Anchor className='anchor' href='https://juansesu3.github.io/Block-master-/' target="_blank">Ver Mas Proyectos</Anchor> */}
-
-                        <Grid5 />
+                    <Grid5 />
                         <br /><br /><br /><br />
                         <Grid6>
                             <div>
                                 <Sth2>
-                                    Portafolio
+                                    Portfolio
                                 </Sth2>
                                 <Stp>
                                 My portfolio,

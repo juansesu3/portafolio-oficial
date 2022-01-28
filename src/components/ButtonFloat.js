@@ -1,11 +1,9 @@
 import React from 'react';
 import '../styles/ButtomFloat.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJedi, faBrain, faPlus, faInbox } from '@fortawesome/free-solid-svg-icons';
+import {faPlus, faInbox } from '@fortawesome/free-solid-svg-icons';
+import {faGithub, faLinkedin, faWhatsappSquare } from '@fortawesome/free-brands-svg-icons'
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab, faGithub, faLinkedin, faWhatsappSquare } from '@fortawesome/free-brands-svg-icons'
-import { github } from '@fortawesome/free-solid-svg-icons'
 const ButtonFloat = () => {
   return (
   <div className='btn-container'>

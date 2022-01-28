@@ -21,66 +21,41 @@ const Formulario = () => {
     return (
         <div>
             <center>
-                <Gridabuelo>{/* Grid abuelo  */}
-                    <Gridpapa onSubmit={sendEmail} >{/* Grid papa  */}
-
-
+                <Gridabuelo>
+                    <Gridpapa onSubmit={sendEmail} >
                         <Grid1conct>
                             <h1>Contact<br /> Me</h1>
                         </Grid1conct>
-
-
-
                         <Grid2conct>
                             <p>I would love to be part of your development team.
                                 Remember it<br/> "<strong className="color">UNION MAKE FORCE</strong>"<br/>
                                 contact me and let's talk.</p>
-
                         </Grid2conct>
-
-
                         <Grid3conct>
-
                             <Styleinput
                                 type="text"
                                 id="name"
                                 name="name"
-                                // value={nombre}
-                                // onChange={(e) => setNombre(e.target.value)}
                                 placeholder="Complet Name" />
-
                         </Grid3conct>
-
-
                         <Grid4conct>
                             <Styleinput
                                 type="email"
                                 id="email"
-                                name="user_email"
-                                // onChange={(e) => setEmail(e.target.value)}
+                                name="user_email"                          
                                 placeholder="Email" />
                         </Grid4conct>
-
-                        
-
                         <Grid5conct>
                             <Styletextaa
                                 name="message"
                                 id="mensage"
-                               
                                 cols="30" rows="10"
                                 placeholder="Message"
-                               
                             ></Styletextaa>
                         </Grid5conct>
-
-
                         <Grid6conct>
                             <Stylebtnn type="submit"  />
-
                         </Grid6conct>
-
-                        
                     </Gridpapa >
                 </Gridabuelo>
             </center>
