@@ -5,16 +5,12 @@ import { app } from '../fb';
 import '../styles/Animation.css'
 import '../styles/NavBar.css'
 import NavScrollExample from '../components/NavbarDos'
-
-
 import Form from 'react-bootstrap/Form';
-
-
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
-const NavBar = () => {
 
+function OffcanvasExample() {
   const [archivoUrl, setArchivoUrl] = useState([]);
   const [docus, setDocus] = useState([]);
   const archivoHandler = async (e) => {
@@ -38,11 +34,7 @@ const NavBar = () => {
     const coleccionRef = app.firestore().collection("archivos");
     const docu = await coleccionRef.doc(nombreArchivo).set({ nombre: nombreArchivo, url: archivoUrl });
     console.info("archivo cargado: :", nombreArchivo, "url: ", archivoUrl)
-
-
-
   }
-
   useEffect(async () => {
     const docusList = await app.firestore().collection("archivos").get();
     setDocus(docusList.docs.map((doc) => doc.data()));
@@ -51,61 +43,67 @@ const NavBar = () => {
   console.log(window.screen.width);
 
   return (
-    <Navbar style={{ backgroundColor: '#000b53'}}  expand="lg">
-      <Container fluid>
-        <Dropdown>
-          <Dropdown.Toggle id="dropdown-button-dark-example1" className='btn-cv'>
-            Curriculum
-          </Dropdown.Toggle>
+    <>
+      {[false].map((expand) => (
+        <Navbar key={expand} style={{ backgroundColor: '#000b53' }} expand={expand} className="mb-3">
+          <Container fluid>
+            <Dropdown>
+              <Dropdown.Toggle id="dropdown-button-dark-example1" className='btn-cv'>
+                Curriculum
+              </Dropdown.Toggle>
 
-          <Dropdown.Menu variant="dark">
-            <Dropdown.Item href="#/action-1" active>
-              <Navbar.Brand><a href="https://firebasestorage.googleapis.com/v0/b/portafolio-b0d04.appspot.com/o/CV%20Juan%20Sebastian%20Suarez%20Ramirez%20(3).pdf?alt=media&token=8fa06e58-4d9e-427a-9293-0a050da34e05" target="_blank" download="CV Juan Sebastian Suarez Ramirez" ><Button variant="secondary">English</Button></a></Navbar.Brand>
-            </Dropdown.Item>
-            <Dropdown.Item href="#/action-2">
-              <Navbar.Brand><a href="https://firebasestorage.googleapis.com/v0/b/portafolio-b0d04.appspot.com/o/CV%20Juan%20Sebastian%20Suarez%20Ramirez%20(4).pdf?alt=media&token=d779eac8-360c-4628-9419-077d4d7b74c4" target="_blank" download="CV Juan Sebastian Suarez Ramirez" ><Button variant="secondary">Spanish</Button></a></Navbar.Brand></Dropdown.Item>
+              <Dropdown.Menu variant="dark">
+                <Dropdown.Item href="#/action-1" active>
+                  <Navbar.Brand><a href="https://firebasestorage.googleapis.com/v0/b/portafolio-b0d04.appspot.com/o/CV%20Juan%20Sebastian%20Suarez%20Ramirez%20(7).pdf?alt=media&token=257f3f68-6da2-49a5-ab02-742e89359ee2" target="_blank" download="CV Juan Sebastian Suarez Ramirez" ><Button variant="secondary">English</Button></a></Navbar.Brand>
+                </Dropdown.Item>
+                <Dropdown.Item href="#/action-2">
+                  <Navbar.Brand><a href="https://firebasestorage.googleapis.com/v0/b/portafolio-b0d04.appspot.com/o/CV%20Juan%20Sebastian%20Suarez%20Ramirez%20(6).pdf?alt=media&token=8abfd99b-cb06-407b-a0a6-608b264a2252" target="_blank" download="CV Juan Sebastian Suarez Ramirez" ><Button variant="secondary">Spanish</Button></a></Navbar.Brand></Dropdown.Item>
 
-          </Dropdown.Menu>
-        </Dropdown>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
-            navbarScroll
-          >
-            <Nav.Link href="#action1"><LinkReact to="/" style={{ textDecoration: 'none', color: 'white' }} >Home</LinkReact></Nav.Link>
-            <Nav.Link href="#action2">
-          <LinkReact to="/projects" style={{ textDecoration: 'none', color: 'white' }}>Projects</LinkReact>
-        </Nav.Link>
-        {/* <Nav.Link href="#action2"><LinkReact to="/animation" style={{ textDecoration: 'none', color: 'white' }}><h1>Animation</h1></LinkReact></Nav.Link> */}
-        <Nav.Link href="#action2">
-          <LinkReact to="/technologies" style={{ textDecoration: 'none', color: 'white' }}>Stack of Technologies</LinkReact>
-        </Nav.Link>
-        <Nav.Link href="#action2">
-          <LinkReact to="/testimonials" style={{ textDecoration: 'none', color: 'white' }}>Testimonials</LinkReact>
-        </Nav.Link>
-        <Nav.Link href="#action2">
-          <LinkReact to="/contact" style={{ textDecoration: 'none', color: 'white' }}>Contact Me</LinkReact>
-        </Nav.Link>
-        <Nav.Link href="#action2">
-          <LinkReact to="/footer" style={{ textDecoration: 'none', color: 'white' }}>Footer</LinkReact>
-        </Nav.Link>
-           
-          
-          </Nav>
-         
-        </Navbar.Collapse>
+              </Dropdown.Menu>
+            </Dropdown>
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Offcanvas
+              id={`offcanvasNavbar-expand-${expand}`}
+              aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+              placement="end"
+            >
+              <Offcanvas.Header style={{ backgroundColor: '#000b53' }}  closeButton>
+                <Offcanvas.Title style={{ color: 'white' }}   id={`offcanvasNavbarLabel-expand-${expand}`}>
+                  MENU
+                </Offcanvas.Title>
+              </Offcanvas.Header>
+              <Offcanvas.Body style={{ backgroundColor: '#000b53' }}  >
+                <Nav className="justify-content-end flex-grow-1 pe-3">
+                  <Nav.Link href="#action1"><LinkReact to="/" style={{ textDecoration: 'none', color: 'white' }} >Home</LinkReact></Nav.Link>
+                  <Nav.Link href="#action2">
+                    <LinkReact to="/projects" style={{ textDecoration: 'none', color: 'white' }}>Projects</LinkReact>
+                  </Nav.Link>
+                  {/* <Nav.Link href="#action2"><LinkReact to="/animation" style={{ textDecoration: 'none', color: 'white' }}><h1>Animation</h1></LinkReact></Nav.Link> */}
+                  <Nav.Link href="#action2">
+                    <LinkReact to="/technologies" style={{ textDecoration: 'none', color: 'white' }}>Stack of Technologies</LinkReact>
+                  </Nav.Link>
+                  <Nav.Link href="#action2">
+                    <LinkReact to="/testimonials" style={{ textDecoration: 'none', color: 'white' }}>Testimonials</LinkReact>
+                  </Nav.Link>
+                  <Nav.Link href="#action2">
+                    <LinkReact to="/contact" style={{ textDecoration: 'none', color: 'white' }}>Contact Me</LinkReact>
+                  </Nav.Link>
+                  <Nav.Link href="#action2">
+                    <LinkReact to="/footer" style={{ textDecoration: 'none', color: 'white' }}>Footer</LinkReact>
+                  </Nav.Link>
 
+                </Nav>
 
-
-
-   
-       
-
-      </Container>
-    </Navbar>
-  )
+              </Offcanvas.Body>
+            </Navbar.Offcanvas>
+          </Container>
+        </Navbar>
+      ))}
+    </>
+  );
 }
 
-export default NavBar
+export default OffcanvasExample;
+
+
+

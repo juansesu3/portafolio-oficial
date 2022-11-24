@@ -17,14 +17,13 @@ const Styleh2 = styled.p`
     color: #FFFE;
     font-size: 32px;
     line-height: 40px;
-
 `;
 
 const Parph = styled.p`
     font-size: 30px;
     line-height: 45px;
     color: white;
-    letter-spacing: 5px
+    letter-spacing: 1px
     width: 100px;
 
 `;
