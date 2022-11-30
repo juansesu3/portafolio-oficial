@@ -68,7 +68,7 @@ function OffcanvasExample() {
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
             >
-              <Offcanvas.Header style={{  backgroundColor: '#000b53', color: 'white' }} closeButton>
+              <Offcanvas.Header style={{  backgroundColor: '#000b53', color: 'white' }} closeButton closeVariant='light'>
                 
                 
   
