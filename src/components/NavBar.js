@@ -8,6 +8,7 @@ import NavScrollExample from '../components/NavbarDos'
 import Form from 'react-bootstrap/Form';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import CloseButton from 'react-bootstrap/CloseButton'
 
 
 function OffcanvasExample() {
@@ -67,29 +68,41 @@ function OffcanvasExample() {
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
             >
-              <Offcanvas.Header style={{ backgroundColor: '#000b53' }}  closeButton>
-                <Offcanvas.Title style={{ color: 'white' }}   id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  MENU
+              <Offcanvas.Header style={{  backgroundColor: '#000b53', color: 'white' }} closeButton>
+                
+                
+  
+  
+
+
+                <Offcanvas.Title style={{ textAlign: 'center', color: '#00e3ff' }} id={`offcanvasNavbarLabel-expand-${expand}`}>
+                  <h1>MENU</h1>
                 </Offcanvas.Title>
+                <CloseButton variant="white" />
               </Offcanvas.Header>
-              <Offcanvas.Body style={{ backgroundColor: '#000b53' }}  >
-                <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1"><LinkReact to="/" style={{ textDecoration: 'none', color: 'white' }} >Home</LinkReact></Nav.Link>
+              <Offcanvas.Body style={{ textAlign: 'center', backgroundColor: '#000b53' }}  >
+                <Nav className=" flex-grow-1 pe-3">
+                  <Nav.Link href="#action1" ><LinkReact to="/" class="nav-text" >Home</LinkReact></Nav.Link>
+                  <br />
                   <Nav.Link href="#action2">
-                    <LinkReact to="/projects" style={{ textDecoration: 'none', color: 'white' }}>Projects</LinkReact>
+                    <LinkReact to="/projects" class="nav-text">Projects</LinkReact>
                   </Nav.Link>
                   {/* <Nav.Link href="#action2"><LinkReact to="/animation" style={{ textDecoration: 'none', color: 'white' }}><h1>Animation</h1></LinkReact></Nav.Link> */}
-                  <Nav.Link href="#action2">
-                    <LinkReact to="/technologies" style={{ textDecoration: 'none', color: 'white' }}>Stack of Technologies</LinkReact>
+                  <br />
+                  <Nav.Link href="#action2" >
+                    <LinkReact to="/technologies" class="nav-text">Stack of Technologies</LinkReact>
                   </Nav.Link>
+                  <br />
                   <Nav.Link href="#action2">
-                    <LinkReact to="/testimonials" style={{ textDecoration: 'none', color: 'white' }}>Testimonials</LinkReact>
+                    <LinkReact to="/testimonials" class="nav-text">Testimonials</LinkReact>
                   </Nav.Link>
+                  <br />
                   <Nav.Link href="#action2">
-                    <LinkReact to="/contact" style={{ textDecoration: 'none', color: 'white' }}>Contact Me</LinkReact>
+                    <LinkReact to="/contact" class="nav-text">Contact Me</LinkReact>
                   </Nav.Link>
+                  <br />
                   <Nav.Link href="#action2">
-                    <LinkReact to="/footer" style={{ textDecoration: 'none', color: 'white' }}>Footer</LinkReact>
+                    <LinkReact to="/footer" class="nav-text">Footer</LinkReact>
                   </Nav.Link>
 
                 </Nav>
