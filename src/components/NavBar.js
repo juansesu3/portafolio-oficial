@@ -68,17 +68,13 @@ function OffcanvasExample() {
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
             >
-              <Offcanvas.Header style={{  backgroundColor: '#000b53', color: 'white' }} closeButton closeVariant='light'>
+            
+              <Offcanvas.Header style={{  backgroundColor: '#000b53', color: 'white' }} closeButton closeVariant='white'>
                 
-                
-  
-  
-
-
-                <Offcanvas.Title style={{ textAlign: 'center', color: '#00e3ff' }} id={`offcanvasNavbarLabel-expand-${expand}`}>
+              <Offcanvas.Title style={{ textAlign: 'center', color: '#00e3ff' }} id={`offcanvasNavbarLabel-expand-${expand}`}>
                   <h1>MENU</h1>
                 </Offcanvas.Title>
-                <CloseButton variant="white" />
+
               </Offcanvas.Header>
               <Offcanvas.Body style={{ textAlign: 'center', backgroundColor: '#000b53' }}  >
                 <Nav className=" flex-grow-1 pe-3">
