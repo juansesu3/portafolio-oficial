@@ -6,7 +6,7 @@ const Logo = () => {
     <div>
       <div className='principal-container'>
         <div className='center-container'>
-          <div className='i-point'></div>
+         
         </div>
         <input type="checkbox" id="animation" className="checkbox" />
         <div className='j-body-lef-1'></div>
