@@ -2,7 +2,9 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
+
     margin-top: 39px ;
+
 
 `;
 
@@ -19,7 +21,10 @@ width: 100%;
     width: 400px;
     margin: auto;
 
+  
+
 }
+
 
 `;
 export const Tiulo = styled.div`

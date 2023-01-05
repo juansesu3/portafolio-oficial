@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
+
     margin-top: 39px ;
 
 `;
@@ -18,6 +19,8 @@ width: 100%;
 @media (min-width: 400px){
     width: 400px;
     margin: auto;
+
+  
 
 }
 

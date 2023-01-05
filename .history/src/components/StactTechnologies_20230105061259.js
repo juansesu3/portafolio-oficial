@@ -108,7 +108,7 @@ const StactTechnologies = () => {
             technologies.map((tech) => {
               return (
 
-                <Card style={{ width: '18rem', margin:'1rem' }}>
+                <Card style={{ width: '18rem' }}>
                   <Card.Img variant="top" src={tech.image}
                     alt="First slide" />
                   <Card.Body>
@@ -116,10 +116,11 @@ const StactTechnologies = () => {
                     <Card.Text>
                       {tech.description}
                     </Card.Text>
-                    <Button variant="primary"><a href={tech.url}>Learnig</a></Button>
+                    <Button variant="primary"><a href={tech.url}>Go somewhere</a></Button>
                   </Card.Body>
                 </Card>
-              );          })}
+              );
+            })}
         </SubContainer>
 
       </Container>

@@ -2,24 +2,23 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
+
     margin-top: 39px ;
+
 
 `;
 
-export const SubContainer = styled.div`
-display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-
-`
+export const subContainer
 export const ImagenesCarrousel = styled.img`
 width: 100%;
 @media (min-width: 400px){
     width: 400px;
     margin: auto;
 
+  
+
 }
+
 
 `;
 export const Tiulo = styled.div`
