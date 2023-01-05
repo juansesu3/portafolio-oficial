@@ -90,7 +90,7 @@ const StactTechnologies = () => {
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1672920994/firebaseVer_wamu01.png",
       "id": 419704,
       "description": "Ad Astra",
-      "urlToLearning": "https://firebase.google.com/docs?authuser=1&hl=es"
+      "urlToLearning": "Ad Astra"
     },
 
   ]
@@ -114,7 +114,7 @@ const StactTechnologies = () => {
                   <Card.Body>
                     <Card.Title>{tech.name}</Card.Title>
               
-                    <Button><ASC href={tech.urlToLearning} target="_blank" >Learn it</ASC></Button>
+                    <Button><ASC href={tech.urlToLearning} >Learn it</ASC></Button>
                   </Card.Body>
                 </Card>
               );          })}

@@ -76,21 +76,21 @@ const StactTechnologies = () => {
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641313364/AmazonasSprint3/okpa5a7e4s1c5ztakzmb.png",
       "id": 419704,
       "description": "Ad Astra",
-      "urlToLearning": "https://redux.js.org/introduction/getting-started"
+      "urlToLearning": "Ad Astra"
     },
     {
       "name": "Jest",
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1672920646/jest2_smmq3z.jpg",
       "id": 419704,
       "description": "Ad Astra",
-      "urlToLearning": "https://jestjs.io/docs/getting-started"
+      "urlToLearning": "Ad Astra"
     },
     {
       "name": "FireBase",
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1672920994/firebaseVer_wamu01.png",
       "id": 419704,
       "description": "Ad Astra",
-      "urlToLearning": "https://firebase.google.com/docs?authuser=1&hl=es"
+      "urlToLearning": "Ad Astra"
     },
 
   ]
@@ -114,7 +114,7 @@ const StactTechnologies = () => {
                   <Card.Body>
                     <Card.Title>{tech.name}</Card.Title>
               
-                    <Button><ASC href={tech.urlToLearning} target="_blank" >Learn it</ASC></Button>
+                    <Button><ASC href={tech.urlToLearning} >Learn it</ASC></Button>
                   </Card.Body>
                 </Card>
               );          })}

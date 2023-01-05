@@ -114,7 +114,7 @@ const StactTechnologies = () => {
                   <Card.Body>
                     <Card.Title>{tech.name}</Card.Title>
               
-                    <Button><ASC href={tech.urlToLearning} target="_blank" >Learn it</ASC></Button>
+                    <Button><ASC href={tech.urlToLearning} target="blank" >Learn it</ASC></Button>
                   </Card.Body>
                 </Card>
               );          })}
