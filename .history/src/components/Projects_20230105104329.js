@@ -131,8 +131,8 @@ const Projects = () => {
                                     <br /><br />  <br /><br /><br />
 
                                     <Contbu>
-                                        <Anchor href={proyects[2].objectProyect.urlCode} target="_blank">See Code</ Anchor>
-                                        <Anchor href={proyects[2].objectProyect.urlDeploy} target="_blank">See Complete Project</Anchor>
+                                        <Anchor href='https://github.com/juansesu3/portafolio-oficial' target="_blank">See Code</ Anchor>
+                                        <Anchor href='https://portafolio-b0d04.web.app/' target="_blank">See Complete Project</Anchor>
                                     </Contbu>
 
                                 </div>

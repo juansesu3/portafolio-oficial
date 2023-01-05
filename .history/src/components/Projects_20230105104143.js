@@ -104,15 +104,15 @@ const Projects = () => {
                             <Grid4>
                                 <div>
                                     <Sth2>
-                                    {proyects[1].objectProyect.nameProyect}
+                                    {proyects[0].objectProyect.nameProyect}
                                     </Sth2>
                                     <Stp>
-                                    {proyects[1].objectProyect.shortDescription}
+                                        Block Master is the most recent content platform on the market but at the same time the most powerful. Discover all its functions in this great design project.
                                     </Stp>
                                     <br /><br /><br /><br /><br />
                                     <Contbu>
-                                        <Anchor href={proyects[1].objectProyect.urlCode}  target="_blank">See Code</ Anchor>
-                                        <Anchor href={proyects[1].objectProyect.urlDeploy} target="_blank">See Complete Project</Anchor>
+                                        <Anchor href='https://github.com/juansesu3/Bloack-Master' target="_blank">See Code</ Anchor>
+                                        <Anchor href=' https://juansesu3.github.io/Bloack-Master/' target="_blank">See Complete Project</Anchor>
                                     </Contbu>
 
                                 </div>
@@ -123,16 +123,17 @@ const Projects = () => {
                             <Grid6>
                                 <div>
                                     <Sth2>
-                                    {proyects[2].objectProyect.nameProyect}
+                                        Portfolio
                                     </Sth2>
                                     <Stp>
-                                    {proyects[2].objectProyect.shortDescription}
+                                        My portfolio,
+                                        an intuitive and interactive app that allows showing my most recent projects as a web developer and the technologies I use.
                                     </Stp>
                                     <br /><br />  <br /><br /><br />
 
                                     <Contbu>
-                                        <Anchor href={proyects[2].objectProyect.urlCode} target="_blank">See Code</ Anchor>
-                                        <Anchor href={proyects[2].objectProyect.urlDeploy} target="_blank">See Complete Project</Anchor>
+                                        <Anchor href='https://github.com/juansesu3/portafolio-oficial' target="_blank">See Code</ Anchor>
+                                        <Anchor href='https://portafolio-b0d04.web.app/' target="_blank">See Complete Project</Anchor>
                                     </Contbu>
 
                                 </div>
