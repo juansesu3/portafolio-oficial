@@ -11,7 +11,7 @@ const ButtonFloat = () => {
       <div className='redes'>
       <a  href='https://www.linkedin.com/in/juan-s-suarez/' target="_blank"> <FontAwesomeIcon icon={faLinkedin} /></a>
       <a   href='https://github.com/juansesu3?tab=repositories' target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
-      <a   href='https://api.whatsapp.com/send?phone=41782645121&text=Hi,%20Juan%20Se!%20How%20are%20you?%20We%20are%20interested%20in%20your%20nice%20work,%20lets%20talk%20' target="_blank"><FontAwesomeIcon icon={faWhatsappSquare} /></a>
+      <a   href='https://api.whatsapp.com/send?phone=41782645121&text=hi!%20Juan%20se,%20how%20are%20you?%20we%20are%20interested%20in%20your%20trabajo,%20hablmos%20' target="_blank"><FontAwesomeIcon icon={faWhatsappSquare} /></a>
       <a   href="contact"><FontAwesomeIcon icon={faInbox} /></a>
       </div>
       <div className='btn-mas'>
