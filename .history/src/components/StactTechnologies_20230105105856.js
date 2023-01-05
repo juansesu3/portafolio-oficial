@@ -88,7 +88,7 @@ const StactTechnologies = () => {
     {
       "name": "FireBase",
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1672920994/firebaseVer_wamu01.png",
-      "idTech": 123581321345589144233377,
+      "idTech": 123581321345589144233,
       "description": "Ad Astra",
       "urlToLearning": "https://firebase.google.com/docs?authuser=1&hl=es"
     },

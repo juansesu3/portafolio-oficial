@@ -81,14 +81,14 @@ const StactTechnologies = () => {
     {
       "name": "Jest",
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1672920646/jest2_smmq3z.jpg",
-      "idTech": 123581321345589144233,
+      "idTech": 419704,
       "description": "Ad Astra",
       "urlToLearning": "https://jestjs.io/docs/getting-started"
     },
     {
       "name": "FireBase",
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1672920994/firebaseVer_wamu01.png",
-      "idTech": 123581321345589144233377,
+      "idTech": 419704,
       "description": "Ad Astra",
       "urlToLearning": "https://firebase.google.com/docs?authuser=1&hl=es"
     },
@@ -108,7 +108,7 @@ const StactTechnologies = () => {
             technologies.map((tech) => {
               return (
 
-                <Card key={tech.idTech} style={{ width: '18rem', margin:'1rem' }}>
+                <Card style={{ width: '18rem', margin:'1rem' }}>
                   <Card.Img variant="top" src={tech.image}
                     alt="First slide" />
                   <Card.Body>

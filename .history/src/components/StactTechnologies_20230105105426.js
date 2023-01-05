@@ -60,35 +60,35 @@ const StactTechnologies = () => {
     {
       "name": "Material UI",
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1672920762/mu_bkqqon.png",
-      "idTech": 1235813213455,
+      "idTech": 419704,
       "description": "Ad Astra",
       "urlToLearning": "https://mui.com/material-ui/material-icons/"
     },
     {
       "name": "React Router",
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641311438/AmazonasSprint3/ngkuxlxzafatotsanp22.jpg",
-      "idTech": 123581321345589,
+      "idTech": 419704,
       "description": "Ad Astra",
       "urlToLearning": "https://reactrouter.com/en/main"
     },
     {
       "name": "Redux",
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641313364/AmazonasSprint3/okpa5a7e4s1c5ztakzmb.png",
-      "idTech": 123581321345589144,
+      "idTech": 419704,
       "description": "Ad Astra",
       "urlToLearning": "https://redux.js.org/introduction/getting-started"
     },
     {
       "name": "Jest",
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1672920646/jest2_smmq3z.jpg",
-      "idTech": 123581321345589144233,
+      "idTech": 419704,
       "description": "Ad Astra",
       "urlToLearning": "https://jestjs.io/docs/getting-started"
     },
     {
       "name": "FireBase",
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1672920994/firebaseVer_wamu01.png",
-      "idTech": 123581321345589144233377,
+      "idTech": 419704,
       "description": "Ad Astra",
       "urlToLearning": "https://firebase.google.com/docs?authuser=1&hl=es"
     },
@@ -108,7 +108,7 @@ const StactTechnologies = () => {
             technologies.map((tech) => {
               return (
 
-                <Card key={tech.idTech} style={{ width: '18rem', margin:'1rem' }}>
+                <Card style={{ width: '18rem', margin:'1rem' }}>
                   <Card.Img variant="top" src={tech.image}
                     alt="First slide" />
                   <Card.Body>
