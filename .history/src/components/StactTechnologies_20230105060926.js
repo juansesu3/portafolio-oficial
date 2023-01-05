@@ -99,6 +99,7 @@ const StactTechnologies = () => {
     <div>
       <Container>
         <hr />
+
         <Tiulo>  <h1>
           Technologies<br /> in<br />  which <br /> I have experience
         </h1></Tiulo>
