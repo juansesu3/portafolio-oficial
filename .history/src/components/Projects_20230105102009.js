@@ -15,16 +15,15 @@ const Projects = () => {
 
     const proyects =[
 
-        
-            
+        {
         {
             "nameProyect":"Cv App",
             "imageProyect":"https://res.cloudinary.com/dv08oqgvx/image/upload/v1636298420/l6wmsgodsiup2wnktjxi.png",
             "shortDescription":" An application with the ability to create professional resume through a practical and friendly intuitive interface. This project was developed together with a development team from the Geek Academy BootCamp.",
             "urlCode":"https://github.com/Juanpabedoyav/Demo-Day.git",
             "urlDeploy":"https://cvapp-573c8.web.app/"
-        },
-    
+        }
+    },
         {
             "nameProyect":"Block Master",
             "imageProyect":"https://res.cloudinary.com/dv08oqgvx/image/upload/v1636298420/l6wmsgodsiup2wnktjxi.png",

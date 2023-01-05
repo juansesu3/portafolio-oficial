@@ -16,7 +16,6 @@ const Projects = () => {
     const proyects =[
 
         
-            
         {
             "nameProyect":"Cv App",
             "imageProyect":"https://res.cloudinary.com/dv08oqgvx/image/upload/v1636298420/l6wmsgodsiup2wnktjxi.png",

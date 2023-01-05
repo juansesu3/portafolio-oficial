@@ -15,7 +15,7 @@ const Projects = () => {
 
     const proyects =[
 
-        
+        [
             
         {
             "nameProyect":"Cv App",
@@ -24,7 +24,7 @@ const Projects = () => {
             "urlCode":"https://github.com/Juanpabedoyav/Demo-Day.git",
             "urlDeploy":"https://cvapp-573c8.web.app/"
         },
-    
+    ],
         {
             "nameProyect":"Block Master",
             "imageProyect":"https://res.cloudinary.com/dv08oqgvx/image/upload/v1636298420/l6wmsgodsiup2wnktjxi.png",
