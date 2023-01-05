@@ -45,7 +45,7 @@ const Projects = () => {
             "shortDescription":"My portfolio, an intuitive and interactive app that allows showing my most recent projects as a web developer and the technologies I use.",
             "urlCode":"https://github.com/juansesu3/portafolio-oficial",
             "urlDeploy":"https://portafolio-b0d04.web.app/"
-        }
+        },
       }
        
     ]

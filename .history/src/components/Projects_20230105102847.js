@@ -28,26 +28,22 @@ const Projects = () => {
           }, 
        
     {
-        "id":2,
-        "objectProyect":  {
+        "id":
+    }
+        {
             "nameProyect":"Block Master",
             "imageProyect":"https://res.cloudinary.com/dv08oqgvx/image/upload/v1636298420/l6wmsgodsiup2wnktjxi.png",
             "shortDescription":" Block Master is the most recent content platform on the market but at the same time the most powerful. Discover all its functions in this great design project.",
             "urlCode":"https://github.com/juansesu3/Bloack-Master",
             "urlDeploy":"https://juansesu3.github.io/Bloack-Master/"
-        }
-    },
-      {
-        "id":3,
-        "objectProyect": {
+        },
+        {
             "nameProyect":"Portfolio",
             "imageProyect":"https://res.cloudinary.com/dv08oqgvx/image/upload/v1641676927/AmazonasSprint3/lztkiypzyx4oucvria9o.png",
             "shortDescription":"My portfolio, an intuitive and interactive app that allows showing my most recent projects as a web developer and the technologies I use.",
             "urlCode":"https://github.com/juansesu3/portafolio-oficial",
             "urlDeploy":"https://portafolio-b0d04.web.app/"
-        }
-      }
-       
+        },
     ]
 
     return (
