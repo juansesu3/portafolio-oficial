@@ -86,7 +86,7 @@ const StactTechnologies = () => {
         "url": "Ad Astra"
       },
       {
-        "name": "FireBase",
+        "name": "fire",
         "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1642006257/AmazonasSprint3/nzhuu57zetl7ssbqx9yi.png",
         "id": 419704,
         "description": "Ad Astra",

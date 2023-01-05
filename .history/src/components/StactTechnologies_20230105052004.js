@@ -30,69 +30,40 @@ const StactTechnologies = () => {
         "url": "Ad Astra"
       },
       {
-        "name": "React.js",
-        "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641309917/AmazonasSprint3/fxwdi8nlwzzofrrxjwi7.png",
+        "name": 605.149,
+        "image": 2649,
         "id": 419704,
         "description": "Ad Astra",
         "url": "Ad Astra"
       },
       {
-        "name": "React BootsTrap",
-        "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641310073/AmazonasSprint3/c8vcghcddfthdvprs3m3.png",
+        "name": 605.149,
+        "image": 2649,
         "id": 419704,
         "description": "Ad Astra",
         "url": "Ad Astra"
       },
       {
-        "name": "Styled components",
-        "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641310662/AmazonasSprint3/lfjst1jgnvcztnzekhpq.png",
+        "name": 605.149,
+        "image": 2649,
         "id": 419704,
         "description": "Ad Astra",
         "url": "Ad Astra"
       },
       {
-        "name": "Chakra",
-        "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641310894/AmazonasSprint3/kktnoqi53kghsufwzbzr.png",
+        "name": 605.149,
+        "image": 2649,
         "id": 419704,
         "description": "Ad Astra",
         "url": "Ad Astra"
       },
       {
-        "name": "Material UI",
-        "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641311037/AmazonasSprint3/nzq6clkgojx9mt91aoai.png",
+        "name": 605.149,
+        "image": 2649,
         "id": 419704,
         "description": "Ad Astra",
         "url": "Ad Astra"
       },
-      {
-        "name": "React Router",
-        "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641311438/AmazonasSprint3/ngkuxlxzafatotsanp22.jpg",
-        "id": 419704,
-        "description": "Ad Astra",
-        "url": "Ad Astra"
-      },
-      {
-        "name": "Redux",
-        "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641313364/AmazonasSprint3/okpa5a7e4s1c5ztakzmb.png",
-        "id": 419704,
-        "description": "Ad Astra",
-        "url": "Ad Astra"
-      },
-      {
-        "name": "Jest",
-        "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641313735/AmazonasSprint3/zftdoq4ynu3swxymwwnw.jpg",
-        "id": 419704,
-        "description": "Ad Astra",
-        "url": "Ad Astra"
-      },
-      {
-        "name": "FireBase",
-        "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1642006257/AmazonasSprint3/nzhuu57zetl7ssbqx9yi.png",
-        "id": 419704,
-        "description": "Ad Astra",
-        "url": "Ad Astra"
-      },
-
     ]
   
   return (

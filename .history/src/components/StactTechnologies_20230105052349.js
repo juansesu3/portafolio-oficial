@@ -78,21 +78,6 @@ const StactTechnologies = () => {
         "description": "Ad Astra",
         "url": "Ad Astra"
       },
-      {
-        "name": "Jest",
-        "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641313735/AmazonasSprint3/zftdoq4ynu3swxymwwnw.jpg",
-        "id": 419704,
-        "description": "Ad Astra",
-        "url": "Ad Astra"
-      },
-      {
-        "name": "FireBase",
-        "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1642006257/AmazonasSprint3/nzhuu57zetl7ssbqx9yi.png",
-        "id": 419704,
-        "description": "Ad Astra",
-        "url": "Ad Astra"
-      },
-
     ]
   
   return (

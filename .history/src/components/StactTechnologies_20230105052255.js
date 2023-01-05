@@ -58,41 +58,12 @@ const StactTechnologies = () => {
         "url": "Ad Astra"
       },
       {
-        "name": "Material UI",
+        "name": "Material ",
         "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641311037/AmazonasSprint3/nzq6clkgojx9mt91aoai.png",
         "id": 419704,
         "description": "Ad Astra",
         "url": "Ad Astra"
       },
-      {
-        "name": "React Router",
-        "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641311438/AmazonasSprint3/ngkuxlxzafatotsanp22.jpg",
-        "id": 419704,
-        "description": "Ad Astra",
-        "url": "Ad Astra"
-      },
-      {
-        "name": "Redux",
-        "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641313364/AmazonasSprint3/okpa5a7e4s1c5ztakzmb.png",
-        "id": 419704,
-        "description": "Ad Astra",
-        "url": "Ad Astra"
-      },
-      {
-        "name": "Jest",
-        "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641313735/AmazonasSprint3/zftdoq4ynu3swxymwwnw.jpg",
-        "id": 419704,
-        "description": "Ad Astra",
-        "url": "Ad Astra"
-      },
-      {
-        "name": "FireBase",
-        "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1642006257/AmazonasSprint3/nzhuu57zetl7ssbqx9yi.png",
-        "id": 419704,
-        "description": "Ad Astra",
-        "url": "Ad Astra"
-      },
-
     ]
   
   return (
