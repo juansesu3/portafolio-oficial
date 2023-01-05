@@ -33,6 +33,8 @@ const Projects = () => {
             "urlCode":"https://github.com/juansesu3/portafolio-oficial",
             "urlDeploy":"https://portafolio-b0d04.web.app/"
         },
+     
+
     ]
 
     return (

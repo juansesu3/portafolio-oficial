@@ -23,7 +23,7 @@ const Projects = () => {
         },
         {
             "nameProyect":"Block Master",
-            "imageProyect":"https://res.cloudinary.com/dv08oqgvx/image/upload/v1636298420/l6wmsgodsiup2wnktjxi.png",
+            "imageProyect":"",
             "urlCode":"https://github.com/juansesu3/Bloack-Master",
             "urlDeploy":"https://juansesu3.github.io/Bloack-Master/"
         },
@@ -33,6 +33,13 @@ const Projects = () => {
             "urlCode":"https://github.com/juansesu3/portafolio-oficial",
             "urlDeploy":"https://portafolio-b0d04.web.app/"
         },
+        {
+            "nameProyect":"Cv App",
+            "imageProyect":"",
+            "urlCode":"https://github.com/Juanpabedoyav/Demo-Day.git",
+            "urlDeploy":"https://cvapp-573c8.web.app/"
+        }
+
     ]
 
     return (

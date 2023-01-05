@@ -13,27 +13,7 @@ import { Ic } from '../styles/Hero.style'
 const Projects = () => {
 
 
-    const proyects =[
-
-        {
-            "nameProyect":"Cv App",
-            "imageProyect":"https://res.cloudinary.com/dv08oqgvx/image/upload/v1636298420/l6wmsgodsiup2wnktjxi.png",
-            "urlCode":"https://github.com/Juanpabedoyav/Demo-Day.git",
-            "urlDeploy":"https://cvapp-573c8.web.app/"
-        },
-        {
-            "nameProyect":"Block Master",
-            "imageProyect":"https://res.cloudinary.com/dv08oqgvx/image/upload/v1636298420/l6wmsgodsiup2wnktjxi.png",
-            "urlCode":"https://github.com/juansesu3/Bloack-Master",
-            "urlDeploy":"https://juansesu3.github.io/Bloack-Master/"
-        },
-        {
-            "nameProyect":"Portfolio",
-            "imageProyect":"https://res.cloudinary.com/dv08oqgvx/image/upload/v1641676927/AmazonasSprint3/lztkiypzyx4oucvria9o.png",
-            "urlCode":"https://github.com/juansesu3/portafolio-oficial",
-            "urlDeploy":"https://portafolio-b0d04.web.app/"
-        },
-    ]
+    const 
 
     return (
         <div>
