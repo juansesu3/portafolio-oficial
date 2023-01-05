@@ -41,7 +41,7 @@ const StactTechnologies = () => {
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641310073/AmazonasSprint3/c8vcghcddfthdvprs3m3.png",
       "idTech": 1235813,
       "description": "Ad Astra",
-      "urlToLearning": "https://react-bootstrap.github.io/getting-started/introduction"
+      "urlToLearning": "https://www.w3schools.com/react/default.asp"
     },
     {
       "name": "Styled components",
