@@ -36,10 +36,4 @@ padding-top:10px ;
 
 `;
 
-export const ASC = styled.a`
-color: white;
-text-decoration:none;
-font-weight:  bold;
-
-
-`
+export const ASC = styled

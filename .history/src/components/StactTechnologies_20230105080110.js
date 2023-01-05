@@ -1,6 +1,6 @@
 import React from 'react';
 //import { Carousel } from 'react-bootstrap';
-import { Container, Tiulo, SubContainer, ASC } from '../styles/StackTechnologies.style';
+import { Container, Tiulo, SubContainer, ButtonSC } from '../styles/StackTechnologies.style';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
@@ -113,8 +113,10 @@ const StactTechnologies = () => {
                     alt="First slide" />
                   <Card.Body>
                     <Card.Title>{tech.name}</Card.Title>
-              
-                    <Button><ASC href={tech.url}>Learn it</ASC></Button>
+                    <Card.Text>
+                      {tech.description}
+                    </Card.Text>
+                    <Button><a href={tech.url}>Learnig</a></Button>
                   </Card.Body>
                 </Card>
               );          })}

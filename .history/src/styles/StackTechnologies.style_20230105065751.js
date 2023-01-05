@@ -35,11 +35,3 @@ padding-bottom:10px ;
 padding-top:10px ;
 
 `;
-
-export const ASC = styled.a`
-color: white;
-text-decoration:none;
-font-weight:  bold;
-
-
-`

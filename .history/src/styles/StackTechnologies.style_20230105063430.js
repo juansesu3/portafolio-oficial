@@ -1,7 +1,7 @@
 import styled from "styled-components";
+import { Button } from "bootstrap";
 
-
-
+expot const ButonSC = styled.Button``
 
 
 export const Container = styled.div`
@@ -35,11 +35,3 @@ padding-bottom:10px ;
 padding-top:10px ;
 
 `;
-
-export const ASC = styled.a`
-color: white;
-text-decoration:none;
-font-weight:  bold;
-
-
-`

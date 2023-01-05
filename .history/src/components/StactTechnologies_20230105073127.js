@@ -1,6 +1,6 @@
 import React from 'react';
 //import { Carousel } from 'react-bootstrap';
-import { Container, Tiulo, SubContainer, ASC } from '../styles/StackTechnologies.style';
+import { Container, Tiulo, SubContainer, ButtonSC } from '../styles/StackTechnologies.style';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
@@ -24,7 +24,7 @@ const StactTechnologies = () => {
     },
     {
       "name": "JavaScript",
-      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1672923022/AmazonasSprint3/v3smgy9jro1ilc19cgku_1_m5lk8q.png",
+      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1672921868/Javascript-shield_vej4n4.png",
       "id": 419704,
       "description": "Ad Astra",
       "url": "Ad Astra"
@@ -113,8 +113,10 @@ const StactTechnologies = () => {
                     alt="First slide" />
                   <Card.Body>
                     <Card.Title>{tech.name}</Card.Title>
-              
-                    <Button><ASC href={tech.url}>Learn it</ASC></Button>
+                    <Card.Text>
+                      {tech.description}
+                    </Card.Text>
+                    <Button><a href={tech.url}>Learnig</a></Button>
                   </Card.Body>
                 </Card>
               );          })}

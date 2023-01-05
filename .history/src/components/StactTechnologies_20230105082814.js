@@ -1,6 +1,6 @@
 import React from 'react';
 //import { Carousel } from 'react-bootstrap';
-import { Container, Tiulo, SubContainer, ASC } from '../styles/StackTechnologies.style';
+import { Container, Tiulo, SubContainer, ButtonSC } from '../styles/StackTechnologies.style';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
@@ -12,7 +12,7 @@ const StactTechnologies = () => {
       "name": "HTML",
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641308993/AmazonasSprint3/abkpvydmce9ueodirytv.png",
       "id": 419704,
-      "description": "lorem",
+      "description": "¿Qué es .HTML y para qué sirve? El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos",
       "url": "Ad Astra"
     },
     {
@@ -113,8 +113,10 @@ const StactTechnologies = () => {
                     alt="First slide" />
                   <Card.Body>
                     <Card.Title>{tech.name}</Card.Title>
-              
-                    <Button><ASC href={tech.url}>Learn it</ASC></Button>
+                    <Card.Text>
+                      {tech.description}
+                    </Card.Text>
+                    <Button><a href={tech.url}>Learnig</a></Button>
                   </Card.Body>
                 </Card>
               );          })}

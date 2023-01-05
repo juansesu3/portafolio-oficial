@@ -1,6 +1,6 @@
 import React from 'react';
 //import { Carousel } from 'react-bootstrap';
-import { Container, Tiulo, SubContainer, ASC } from '../styles/StackTechnologies.style';
+import { Container, Tiulo, SubContainer, ButtonSC } from '../styles/StackTechnologies.style';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
@@ -12,28 +12,28 @@ const StactTechnologies = () => {
       "name": "HTML",
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641308993/AmazonasSprint3/abkpvydmce9ueodirytv.png",
       "id": 419704,
-      "description": "lorem",
+      "description": "¿Qué es .HTML y para qué sirve? El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos",
       "url": "Ad Astra"
     },
     {
       "name": "CSS",
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641308880/AmazonasSprint3/sjrerjrp6vg0yhegt24y.png",
       "id": 419704,
-      "description": "lorem",
+      "description": "el CSS es un lenguaje informático que especifica cómo se presentan los documentos a los usuarios: cómo se diseñan, compaginan, etc. Un documento suele ser un archivo de texto estructurado con un lenguaje de marcado: HTML es el más común, pero también existen otros como SVG o XML.",
       "url": "Ad Astra"
     },
     {
       "name": "JavaScript",
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1672923022/AmazonasSprint3/v3smgy9jro1ilc19cgku_1_m5lk8q.png",
       "id": 419704,
-      "description": "Ad Astra",
+      "description": "JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas. Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, las funciones de JavaScript pueden mejorar la experiencia del usuario de un sitio web.",
       "url": "Ad Astra"
     },
     {
       "name": "React.js",
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641309917/AmazonasSprint3/fxwdi8nlwzzofrrxjwi7.png",
       "id": 419704,
-      "description": "Ad Astra",
+      "description": "React. js es utilizado para hacer páginas web y trabaja con elementos del virtual DOM, mientras que por el otro lado React Native utiliza elementos nativos de interfaz de usuario de Android y iOS para crear aplicaciones para ambas plataformas.",
       "url": "Ad Astra"
     },
     {
@@ -113,8 +113,10 @@ const StactTechnologies = () => {
                     alt="First slide" />
                   <Card.Body>
                     <Card.Title>{tech.name}</Card.Title>
-              
-                    <Button><ASC href={tech.url}>Learn it</ASC></Button>
+                    <Card.Text>
+                      {tech.description}
+                    </Card.Text>
+                    <Button><a href={tech.url}>Learnig</a></Button>
                   </Card.Body>
                 </Card>
               );          })}
