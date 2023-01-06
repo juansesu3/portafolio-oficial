@@ -39,6 +39,7 @@ font-size: 32px;
 line-height: 40px;
 background-color: #110e2d;
 color: #ff8906;
+
 position: relative;
 top: 40px;  
 text-align:center;

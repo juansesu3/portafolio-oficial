@@ -32,18 +32,6 @@ export const Gridbone = styled.div`
    
     
 `;
-export const Title = styled.h1`
-font-weight: 400;
-font-style: normal;
-font-size: 32px;
-line-height: 40px;
-background-color: #110e2d;
-color: #ff8906;
-position: relative;
-top: 40px;  
-text-align:center;
-
-`;
 
 export const Gridbtow = styled.div`
     background-color: #110e2d ;
