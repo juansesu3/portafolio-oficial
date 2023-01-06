@@ -37,18 +37,18 @@ const StactTechnologies = () => {
       "urlToLearning": "https://www.w3schools.com/react/default.asp"
     },
     {
-      "name": "React Router",
-      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641311438/AmazonasSprint3/ngkuxlxzafatotsanp22.jpg",
-      "idTech": 123581321345589,
+      "name": "React BootsTrap",
+      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641310073/AmazonasSprint3/c8vcghcddfthdvprs3m3.png",
+      "idTech": 1235813,
       "description": "Ad Astra",
-      "urlToLearning": "https://reactrouter.com/en/main"
+      "urlToLearning": "https://react-bootstrap.github.io/getting-started/introduction"
     },
     {
-      "name": "Redux",
-      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641313364/AmazonasSprint3/okpa5a7e4s1c5ztakzmb.png",
-      "idTech": 123581321345589144,
+      "name": "Styled components",
+      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641310662/AmazonasSprint3/lfjst1jgnvcztnzekhpq.png",
+      "idTech": 123581321,
       "description": "Ad Astra",
-      "urlToLearning": "https://redux.js.org/introduction/getting-started"
+      "urlToLearning": "https://styled-components.com/docs"
     },
     {
       "name": "Git",
@@ -65,21 +65,6 @@ const StactTechnologies = () => {
       "urlToLearning": "https://skills.github.com/"
     },
     {
-      "name": "React BootsTrap",
-      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641310073/AmazonasSprint3/c8vcghcddfthdvprs3m3.png",
-      "idTech": 1235813,
-      "description": "Ad Astra",
-      "urlToLearning": "https://react-bootstrap.github.io/getting-started/introduction"
-    },
-    {
-      "name": "Styled components",
-      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641310662/AmazonasSprint3/lfjst1jgnvcztnzekhpq.png",
-      "idTech": 123581321,
-      "description": "Ad Astra",
-      "urlToLearning": "https://styled-components.com/docs"
-    },
-    
-    {
       "name": "Chakra",
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641310894/AmazonasSprint3/kktnoqi53kghsufwzbzr.png",
       "idTech": 12358132134,
@@ -93,7 +78,20 @@ const StactTechnologies = () => {
       "description": "Ad Astra",
       "urlToLearning": "https://mui.com/material-ui/material-icons/"
     },
-    
+    {
+      "name": "React Router",
+      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641311438/AmazonasSprint3/ngkuxlxzafatotsanp22.jpg",
+      "idTech": 123581321345589,
+      "description": "Ad Astra",
+      "urlToLearning": "https://reactrouter.com/en/main"
+    },
+    {
+      "name": "Redux",
+      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641313364/AmazonasSprint3/okpa5a7e4s1c5ztakzmb.png",
+      "idTech": 123581321345589144,
+      "description": "Ad Astra",
+      "urlToLearning": "https://redux.js.org/introduction/getting-started"
+    },
     {
       "name": "Jest",
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1672920646/jest2_smmq3z.jpg",
@@ -138,7 +136,7 @@ const StactTechnologies = () => {
                   <Card.Body>
                     <Card.Title>{tech.name}</Card.Title>
               
-                    <Button  ><ASC href={tech.urlToLearning} target="_blank" >Learn it</ASC></Button>
+                    <Button><ASC href={tech.urlToLearning} target="_blank" >Learn it</ASC></Button>
                   </Card.Body>
                 </Card>
               );          })}

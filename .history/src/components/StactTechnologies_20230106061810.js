@@ -37,34 +37,6 @@ const StactTechnologies = () => {
       "urlToLearning": "https://www.w3schools.com/react/default.asp"
     },
     {
-      "name": "React Router",
-      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641311438/AmazonasSprint3/ngkuxlxzafatotsanp22.jpg",
-      "idTech": 123581321345589,
-      "description": "Ad Astra",
-      "urlToLearning": "https://reactrouter.com/en/main"
-    },
-    {
-      "name": "Redux",
-      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641313364/AmazonasSprint3/okpa5a7e4s1c5ztakzmb.png",
-      "idTech": 123581321345589144,
-      "description": "Ad Astra",
-      "urlToLearning": "https://redux.js.org/introduction/getting-started"
-    },
-    {
-      "name": "Git",
-      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1673004448/AmazonasSprint3/logo_git_icon_loi4nm.png",
-      "idTech": 123581321345589144233377610,
-      "description": "Ad Astra",
-      "urlToLearning": "https://git-scm.com/doc"
-    },
-    {
-      "name": "GitHub",
-      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1673004529/AmazonasSprint3/Octicons-mark-github.svg_mjbbsn.png",
-      "idTech": 123581321345589144233377610987,
-      "description": "Ad Astra",
-      "urlToLearning": "https://skills.github.com/"
-    },
-    {
       "name": "React BootsTrap",
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641310073/AmazonasSprint3/c8vcghcddfthdvprs3m3.png",
       "idTech": 1235813,
@@ -78,7 +50,6 @@ const StactTechnologies = () => {
       "description": "Ad Astra",
       "urlToLearning": "https://styled-components.com/docs"
     },
-    
     {
       "name": "Chakra",
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641310894/AmazonasSprint3/kktnoqi53kghsufwzbzr.png",
@@ -93,7 +64,20 @@ const StactTechnologies = () => {
       "description": "Ad Astra",
       "urlToLearning": "https://mui.com/material-ui/material-icons/"
     },
-    
+    {
+      "name": "React Router",
+      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641311438/AmazonasSprint3/ngkuxlxzafatotsanp22.jpg",
+      "idTech": 123581321345589,
+      "description": "Ad Astra",
+      "urlToLearning": "https://reactrouter.com/en/main"
+    },
+    {
+      "name": "Redux",
+      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641313364/AmazonasSprint3/okpa5a7e4s1c5ztakzmb.png",
+      "idTech": 123581321345589144,
+      "description": "Ad Astra",
+      "urlToLearning": "https://redux.js.org/introduction/getting-started"
+    },
     {
       "name": "Jest",
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1672920646/jest2_smmq3z.jpg",
@@ -108,13 +92,12 @@ const StactTechnologies = () => {
       "description": "Ad Astra",
       "urlToLearning": "https://firebase.google.com/docs?authuser=1&hl=es"
     },
-  
     {
-      "name": "Cloudinary",
-      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1673004922/AmazonasSprint3/1_7CrSGB37vYF6kWga4PbJGA_vgsdlc.png",
-      "idTech": 1235813213455891442333776109871597,
+      "name": "Git",
+      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1672920994/firebaseVer_wamu01.png",
+      "idTech": 123581321345589144233377,
       "description": "Ad Astra",
-      "urlToLearning": "https://cloudinary.com/documentation/tutorial_screencasts"
+      "urlToLearning": "https://firebase.google.com/docs?authuser=1&hl=es"
     },
 
   ]
@@ -138,7 +121,7 @@ const StactTechnologies = () => {
                   <Card.Body>
                     <Card.Title>{tech.name}</Card.Title>
               
-                    <Button  ><ASC href={tech.urlToLearning} target="_blank" >Learn it</ASC></Button>
+                    <Button><ASC href={tech.urlToLearning} target="_blank" >Learn it</ASC></Button>
                   </Card.Body>
                 </Card>
               );          })}

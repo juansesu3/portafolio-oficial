@@ -37,6 +37,34 @@ const StactTechnologies = () => {
       "urlToLearning": "https://www.w3schools.com/react/default.asp"
     },
     {
+      "name": "React BootsTrap",
+      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641310073/AmazonasSprint3/c8vcghcddfthdvprs3m3.png",
+      "idTech": 1235813,
+      "description": "Ad Astra",
+      "urlToLearning": "https://react-bootstrap.github.io/getting-started/introduction"
+    },
+    {
+      "name": "Styled components",
+      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641310662/AmazonasSprint3/lfjst1jgnvcztnzekhpq.png",
+      "idTech": 123581321,
+      "description": "Ad Astra",
+      "urlToLearning": "https://styled-components.com/docs"
+    },
+    {
+      "name": "Chakra",
+      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641310894/AmazonasSprint3/kktnoqi53kghsufwzbzr.png",
+      "idTech": 12358132134,
+      "description": "Ad Astra",
+      "urlToLearning": "https://chakra-ui.com/getting-started"
+    },
+    {
+      "name": "Material UI",
+      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1672920762/mu_bkqqon.png",
+      "idTech": 1235813213455,
+      "description": "Ad Astra",
+      "urlToLearning": "https://mui.com/material-ui/material-icons/"
+    },
+    {
       "name": "React Router",
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641311438/AmazonasSprint3/ngkuxlxzafatotsanp22.jpg",
       "idTech": 123581321345589,
@@ -49,6 +77,20 @@ const StactTechnologies = () => {
       "idTech": 123581321345589144,
       "description": "Ad Astra",
       "urlToLearning": "https://redux.js.org/introduction/getting-started"
+    },
+    {
+      "name": "Jest",
+      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1672920646/jest2_smmq3z.jpg",
+      "idTech": 123581321345589144233,
+      "description": "Ad Astra",
+      "urlToLearning": "https://jestjs.io/docs/getting-started"
+    },
+    {
+      "name": "FireBase",
+      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1672920994/firebaseVer_wamu01.png",
+      "idTech": 123581321345589144233377,
+      "description": "Ad Astra",
+      "urlToLearning": "https://firebase.google.com/docs?authuser=1&hl=es"
     },
     {
       "name": "Git",
@@ -65,56 +107,11 @@ const StactTechnologies = () => {
       "urlToLearning": "https://skills.github.com/"
     },
     {
-      "name": "React BootsTrap",
-      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641310073/AmazonasSprint3/c8vcghcddfthdvprs3m3.png",
-      "idTech": 1235813,
+      "name": "Clouddinary",
+      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1673004716/AmazonasSprint3/png-clipart-cloudinary-computer-software-software-as-a-service-digital-asset-management-others-miscellaneous-text-thumbnail_pmelpy.png",
+      "idTech": 123581321345589144233377610987,
       "description": "Ad Astra",
-      "urlToLearning": "https://react-bootstrap.github.io/getting-started/introduction"
-    },
-    {
-      "name": "Styled components",
-      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641310662/AmazonasSprint3/lfjst1jgnvcztnzekhpq.png",
-      "idTech": 123581321,
-      "description": "Ad Astra",
-      "urlToLearning": "https://styled-components.com/docs"
-    },
-    
-    {
-      "name": "Chakra",
-      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641310894/AmazonasSprint3/kktnoqi53kghsufwzbzr.png",
-      "idTech": 12358132134,
-      "description": "Ad Astra",
-      "urlToLearning": "https://chakra-ui.com/getting-started"
-    },
-    {
-      "name": "Material UI",
-      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1672920762/mu_bkqqon.png",
-      "idTech": 1235813213455,
-      "description": "Ad Astra",
-      "urlToLearning": "https://mui.com/material-ui/material-icons/"
-    },
-    
-    {
-      "name": "Jest",
-      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1672920646/jest2_smmq3z.jpg",
-      "idTech": 123581321345589144233,
-      "description": "Ad Astra",
-      "urlToLearning": "https://jestjs.io/docs/getting-started"
-    },
-    {
-      "name": "FireBase",
-      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1672920994/firebaseVer_wamu01.png",
-      "idTech": 123581321345589144233377,
-      "description": "Ad Astra",
-      "urlToLearning": "https://firebase.google.com/docs?authuser=1&hl=es"
-    },
-  
-    {
-      "name": "Cloudinary",
-      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1673004922/AmazonasSprint3/1_7CrSGB37vYF6kWga4PbJGA_vgsdlc.png",
-      "idTech": 1235813213455891442333776109871597,
-      "description": "Ad Astra",
-      "urlToLearning": "https://cloudinary.com/documentation/tutorial_screencasts"
+      "urlToLearning": "https://skills.github.com/"
     },
 
   ]
@@ -138,7 +135,7 @@ const StactTechnologies = () => {
                   <Card.Body>
                     <Card.Title>{tech.name}</Card.Title>
               
-                    <Button  ><ASC href={tech.urlToLearning} target="_blank" >Learn it</ASC></Button>
+                    <Button><ASC href={tech.urlToLearning} target="_blank" >Learn it</ASC></Button>
                   </Card.Body>
                 </Card>
               );          })}

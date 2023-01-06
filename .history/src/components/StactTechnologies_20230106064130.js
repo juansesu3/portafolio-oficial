@@ -37,20 +37,6 @@ const StactTechnologies = () => {
       "urlToLearning": "https://www.w3schools.com/react/default.asp"
     },
     {
-      "name": "React Router",
-      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641311438/AmazonasSprint3/ngkuxlxzafatotsanp22.jpg",
-      "idTech": 123581321345589,
-      "description": "Ad Astra",
-      "urlToLearning": "https://reactrouter.com/en/main"
-    },
-    {
-      "name": "Redux",
-      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641313364/AmazonasSprint3/okpa5a7e4s1c5ztakzmb.png",
-      "idTech": 123581321345589144,
-      "description": "Ad Astra",
-      "urlToLearning": "https://redux.js.org/introduction/getting-started"
-    },
-    {
       "name": "Git",
       "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1673004448/AmazonasSprint3/logo_git_icon_loi4nm.png",
       "idTech": 123581321345589144233377610,
@@ -138,7 +124,7 @@ const StactTechnologies = () => {
                   <Card.Body>
                     <Card.Title>{tech.name}</Card.Title>
               
-                    <Button  ><ASC href={tech.urlToLearning} target="_blank" >Learn it</ASC></Button>
+                    <Button><ASC href={tech.urlToLearning} target="_blank" >Learn it</ASC></Button>
                   </Card.Body>
                 </Card>
               );          })}
