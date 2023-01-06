@@ -22,8 +22,7 @@ flex-wrap: wrap;
 
 `;
 export const ToasSc = styled.div`
-magin:2rem;
-`;
+`
 
 
 

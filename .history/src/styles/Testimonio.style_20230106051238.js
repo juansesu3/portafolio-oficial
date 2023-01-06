@@ -14,19 +14,6 @@ text-align:center;
 
 `;
 
-export const FlexContainer = styled.div`
-display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
-
-
-`;
-export const ToasSc = styled.div`
-magin:2rem;
-`;
-
-
-
 export const Gridlayerstest = styled.div`
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -54,6 +41,8 @@ export const Gridbone = styled.div`
     position: relative;
     top: 40px;  
     text-align:center;
+    
+   
     
 `;
 

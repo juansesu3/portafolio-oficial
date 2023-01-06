@@ -1,32 +1,6 @@
 import styled from 'styled-components';
 
 
-
-export const Title = styled.h1`
-font-weight: 400;
-font-style: normal;
-font-size: 32px;
-line-height: 40px;
-background-color: #110e2d;
-color: #ff8906;
-
-text-align:center;
-
-`;
-
-export const FlexContainer = styled.div`
-display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
-
-
-`;
-export const ToasSc = styled.div`
-magin:2rem;
-`;
-
-
-
 export const Gridlayerstest = styled.div`
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -55,8 +29,20 @@ export const Gridbone = styled.div`
     top: 40px;  
     text-align:center;
     
+   
+    
 `;
+export const Title = styled.h1`
+font-weight: 400;
+font-style: normal;
+font-size: 32px;
+line-height: 40px;
+background-color: #110e2d;
+color: #ff8906;
 
+text-align:center;
+
+`;
 
 export const Gridbtow = styled.div`
     background-color: #110e2d ;

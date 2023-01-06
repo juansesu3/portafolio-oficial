@@ -15,14 +15,7 @@ text-align:center;
 `;
 
 export const FlexContainer = styled.div`
-display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
-
-
-`;
-export const ToasSc = styled.div`
-magin:2rem;
+dis
 `;
 
 
