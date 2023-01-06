@@ -3,29 +3,11 @@ import { Gridbone, Gridbtow, Gridlayerstest, Gridthree, Imagess, Stylecommitp, S
 
 const Testimonios = () => {
 
-    const testimonial = [
+    const testimonial =[
         {
-            "name": "John Faber Florez Vasco",
-            "perfilPhoto": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641348678/AmazonasSprint3/k1y96c2kl9hzcpayxnyo.png",
-            "company": "Agile Innova",
-            "profession": "Software Consultant",
-            "feedback": "Sebastian has been a very committed person in his geek academy training process, he has shown sincerity in his strengths in order to acquire the necessary technical knowledge to become software development, I have seen that he has been very committed to each of the activities that have been proposed and no matter how small the challenge, it has been assumed in a thorough and professional way.I feel that there is clarity in Sebastián's purpose in the geek academy program and that I long for more people as is the value of this great opportunity to be linked to work in the ICT sector."
-        },
-        {
-            "name": "Jenny Alexandra Montoya Cortés",
-            "perfilPhoto": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641348637/AmazonasSprint3/ixaspolqi5pinvemcj7l.png",
-            "company": "Academia Geek",
-            "profession": "Frontend Mentor",
-            "feedback": "The student starts with no previous knowledge in the Geek Apprentices course. His effort and dedication is evidenced in his continuous study with the training field and external tools. Thus, successfully completing the apprenticeship course and moving on to the official Frontend 5 course. In the current course, the same dynamics of hard work, effort and improvement are noted, good disposition is shown in the classes and with their peers. These are the results shown up to week 4 (mid-course). Constant work and motivation brings very good results, time will prove right. In week 8 I hope to be filling out this form again and telling the end of the story. : D"
-        },
-        {
-            "name": "",
-            "perfilPhoto": "",
-            "company": "",
-            "profession": "",
-            "feedback": ""
+            
         }
-        ]
+    ]
 
     return (
         <div>

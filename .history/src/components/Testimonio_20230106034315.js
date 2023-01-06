@@ -13,7 +13,7 @@ const Testimonios = () => {
         },
         {
             "name": "Jenny Alexandra Montoya Cortés",
-            "perfilPhoto": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641348637/AmazonasSprint3/ixaspolqi5pinvemcj7l.png",
+            "perfilPhoto": "",
             "company": "Academia Geek",
             "profession": "Frontend Mentor",
             "feedback": "The student starts with no previous knowledge in the Geek Apprentices course. His effort and dedication is evidenced in his continuous study with the training field and external tools. Thus, successfully completing the apprenticeship course and moving on to the official Frontend 5 course. In the current course, the same dynamics of hard work, effort and improvement are noted, good disposition is shown in the classes and with their peers. These are the results shown up to week 4 (mid-course). Constant work and motivation brings very good results, time will prove right. In week 8 I hope to be filling out this form again and telling the end of the story. : D"
