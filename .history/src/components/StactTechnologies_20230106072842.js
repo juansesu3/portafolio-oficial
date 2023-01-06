@@ -118,10 +118,10 @@ const StactTechnologies = () => {
     },
     {
       "name": "Waka Time",
-      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1673008480/AmazonasSprint3/image_processing20210621-16554-qk81sp_v6ogz4.png",
-      "idTech": 12358132134558914423337761098715972584,
+      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1673008078/AmazonasSprint3/62c43e662163db781514ed27_fsdzjb.png",
+      "idTech": 1235813213455891442333776109871597,
       "description": "Ad Astra",
-      "urlToLearning": "https://wakatime.com/education"
+      "urlToLearning": "https://cloudinary.com/documentation/tutorial_screencasts"
     },
 
   ]

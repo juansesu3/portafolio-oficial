@@ -118,7 +118,7 @@ const StactTechnologies = () => {
     },
     {
       "name": "Waka Time",
-      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1673008480/AmazonasSprint3/image_processing20210621-16554-qk81sp_v6ogz4.png",
+      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1673008297/AmazonasSprint3/wakatime-logo-text-vertical_pemiaa.png",
       "idTech": 12358132134558914423337761098715972584,
       "description": "Ad Astra",
       "urlToLearning": "https://wakatime.com/education"

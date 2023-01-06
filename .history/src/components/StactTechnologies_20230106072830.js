@@ -117,11 +117,11 @@ const StactTechnologies = () => {
       "urlToLearning": "https://cloudinary.com/documentation/tutorial_screencasts"
     },
     {
-      "name": "Waka Time",
-      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1673008480/AmazonasSprint3/image_processing20210621-16554-qk81sp_v6ogz4.png",
-      "idTech": 12358132134558914423337761098715972584,
+      "name": "Waka",
+      "image": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1673004922/AmazonasSprint3/1_7CrSGB37vYF6kWga4PbJGA_vgsdlc.png",
+      "idTech": 1235813213455891442333776109871597,
       "description": "Ad Astra",
-      "urlToLearning": "https://wakatime.com/education"
+      "urlToLearning": "https://cloudinary.com/documentation/tutorial_screencasts"
     },
 
   ]
