@@ -66,7 +66,7 @@ const Testimonios = () => {
                 testimonial.map((testi) => {
                     return (
 
-                        <ToasSc key={testi.idTesti}>
+                        <ToasSc>
                             <Toast >
                                 <Toast.Header closeButton={false} >
                                     <Imagess src={testi.perfilPhoto} className="rounded me-2" alt="" />
