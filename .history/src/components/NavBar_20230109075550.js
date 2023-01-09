@@ -1,4 +1,4 @@
-import React, { /* useEffect, useState */ } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Navbar, Nav, Container, Button, Dropdown } from 'react-bootstrap'
 import { Link as LinkReact } from 'react-router-dom'
 //import { app } from '../fb';

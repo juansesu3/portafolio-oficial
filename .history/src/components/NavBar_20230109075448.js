@@ -1,7 +1,7 @@
-import React, { /* useEffect, useState */ } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Navbar, Nav, Container, Button, Dropdown } from 'react-bootstrap'
 import { Link as LinkReact } from 'react-router-dom'
-//import { app } from '../fb';
+import { app } from '../fb';
 import '../styles/Animation.css'
 import '../styles/NavBar.css'
 //import NavScrollExample from '../components/NavbarDos'
@@ -12,9 +12,9 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 
 
 function OffcanvasExample() {
-  //const [archivoUrl, setArchivoUrl] = useState([]);
-  //const [docus, setDocus] = useState([]);
-  /*const archivoHandler = async (e) => {
+  const [archivoUrl, setArchivoUrl] = useState([]);
+  const [docus, setDocus] = useState([]);
+  const archivoHandler = async (e) => {
     e.preventDefault()
     const archivo = e.target.files[0];
     const storageRef = app.storage().ref();

@@ -1,7 +1,7 @@
-import React, { /* useEffect, useState */ } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Navbar, Nav, Container, Button, Dropdown } from 'react-bootstrap'
 import { Link as LinkReact } from 'react-router-dom'
-//import { app } from '../fb';
+import { app } from '../fb';
 import '../styles/Animation.css'
 import '../styles/NavBar.css'
 //import NavScrollExample from '../components/NavbarDos'
@@ -12,9 +12,9 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 
 
 function OffcanvasExample() {
-  //const [archivoUrl, setArchivoUrl] = useState([]);
-  //const [docus, setDocus] = useState([]);
-  /*const archivoHandler = async (e) => {
+  const [archivoUrl, setArchivoUrl] = useState([]);
+  const [docus, setDocus] = useState([]);
+  const archivoHandler = async (e) => {
     e.preventDefault()
     const archivo = e.target.files[0];
     const storageRef = app.storage().ref();
@@ -23,9 +23,9 @@ function OffcanvasExample() {
     console.log("Archivo cargado:", archivo.name)
     const enlaceUrl = await archivoPath.getDownloadURL();
     setArchivoUrl(enlaceUrl)
-  }*/
+  }
 
-  /*const submitHandler = async (e) => {
+  const submitHandler = async (e) => {
     e.preventDefault()
     const nombreArchivo = e.target.nombre.value;
     if (!nombreArchivo) {
@@ -35,8 +35,7 @@ function OffcanvasExample() {
     const coleccionRef = app.firestore().collection("archivos");
     const docu = await coleccionRef.doc(nombreArchivo).set({ nombre: nombreArchivo, url: archivoUrl });
     console.info("archivo cargado: :", nombreArchivo, "url: ", archivoUrl)
-  }*/
-  /*
+  }
   useEffect(async () => {
     const docusList = await app.firestore().collection("archivos").get();
     setDocus(docusList.docs.map((doc) => doc.data()));

@@ -1,7 +1,7 @@
-import React, { /* useEffect, useState */ } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Navbar, Nav, Container, Button, Dropdown } from 'react-bootstrap'
 import { Link as LinkReact } from 'react-router-dom'
-//import { app } from '../fb';
+import { app } from '../fb';
 import '../styles/Animation.css'
 import '../styles/NavBar.css'
 //import NavScrollExample from '../components/NavbarDos'
@@ -12,9 +12,9 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 
 
 function OffcanvasExample() {
-  //const [archivoUrl, setArchivoUrl] = useState([]);
-  //const [docus, setDocus] = useState([]);
-  /*const archivoHandler = async (e) => {
+  const [archivoUrl, setArchivoUrl] = useState([]);
+  const [docus, setDocus] = useState([]);
+  const archivoHandler = async (e) => {
     e.preventDefault()
     const archivo = e.target.files[0];
     const storageRef = app.storage().ref();
@@ -23,9 +23,9 @@ function OffcanvasExample() {
     console.log("Archivo cargado:", archivo.name)
     const enlaceUrl = await archivoPath.getDownloadURL();
     setArchivoUrl(enlaceUrl)
-  }*/
+  }
 
-  /*const submitHandler = async (e) => {
+  const submitHandler = async (e) => {
     e.preventDefault()
     const nombreArchivo = e.target.nombre.value;
     if (!nombreArchivo) {
@@ -35,15 +35,13 @@ function OffcanvasExample() {
     const coleccionRef = app.firestore().collection("archivos");
     const docu = await coleccionRef.doc(nombreArchivo).set({ nombre: nombreArchivo, url: archivoUrl });
     console.info("archivo cargado: :", nombreArchivo, "url: ", archivoUrl)
-  }*/
-  /*
+  }
   useEffect(async () => {
     const docusList = await app.firestore().collection("archivos").get();
     setDocus(docusList.docs.map((doc) => doc.data()));
     // console.log(docusList);
   }, [])
   console.log(window.screen.width);
-  */
 
   return (
     <>
@@ -57,10 +55,10 @@ function OffcanvasExample() {
 
               <Dropdown.Menu variant="dark">
                 <Dropdown.Item href="#/action-1" active>
-                  <Navbar.Brand><a target="_blank" rel="noreferrer" href="https://firebasestorage.googleapis.com/v0/b/portafolio-b0d04.appspot.com/o/CV%20Juan%20Sebastian%20Suarez%20Ramirez%20(7).pdf?alt=media&token=257f3f68-6da2-49a5-ab02-742e89359ee2" download="CV Juan Sebastian Suarez Ramirez" ><Button variant="secondary">English</Button></a></Navbar.Brand>
+                  <Navbar.Brand><a target="_blank" rel="noreferrer" href="https://firebasestorage.googleapis.com/v0/b/portafolio-b0d04.appspot.com/o/CV%20Juan%20Sebastian%20Suarez%20Ramirez%20(7).pdf?alt=media&token=257f3f68-6da2-49a5-ab02-742e89359ee2"  download="CV Juan Sebastian Suarez Ramirez" ><Button variant="secondary">English</Button></a></Navbar.Brand>
                 </Dropdown.Item>
                 <Dropdown.Item href="#/action-2">
-                  <Navbar.Brand><a target="_blank" rel="noreferrer" href="https://firebasestorage.googleapis.com/v0/b/portafolio-b0d04.appspot.com/o/CV%20Juan%20Sebastian%20Suarez%20Ramirez%20(6).pdf?alt=media&token=8abfd99b-cb06-407b-a0a6-608b264a2252" download="CV Juan Sebastian Suarez Ramirez" ><Button variant="secondary">Spanish</Button></a></Navbar.Brand></Dropdown.Item>
+                  <Navbar.Brand><a target="_blank" rel="noreferrer" href="https://firebasestorage.googleapis.com/v0/b/portafolio-b0d04.appspot.com/o/CV%20Juan%20Sebastian%20Suarez%20Ramirez%20(6).pdf?alt=media&token=8abfd99b-cb06-407b-a0a6-608b264a2252"  download="CV Juan Sebastian Suarez Ramirez" ><Button variant="secondary">Spanish</Button></a></Navbar.Brand></Dropdown.Item>
 
               </Dropdown.Menu>
             </Dropdown>
