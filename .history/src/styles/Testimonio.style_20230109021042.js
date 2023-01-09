@@ -9,7 +9,7 @@ font-size: 32px;
 line-height: 40px;
 background-color: #110e2d;
 color: #ff8906;
-margin-top: 7rem;
+
 text-align:center;
 
 `;
@@ -18,13 +18,13 @@ export const FlexContainer = styled.div`
 display: flex;
 justify-content: space-evenly;
 flex-wrap: wrap;
-margin-top: 5rem;
+margin-top: 7rem;
 margin-bottom: 7rem
 
 
 `;
 export const ToasSc = styled.div`
-margin:2rem;
+magin:2rem;
 `;
 
 

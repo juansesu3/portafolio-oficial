@@ -18,13 +18,13 @@ export const FlexContainer = styled.div`
 display: flex;
 justify-content: space-evenly;
 flex-wrap: wrap;
-margin-top: 5rem;
+margin-top: 3rem;
 margin-bottom: 7rem
 
 
 `;
 export const ToasSc = styled.div`
-margin:2rem;
+magin:2rem;
 `;
 
 

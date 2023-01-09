@@ -24,7 +24,7 @@ margin-bottom: 7rem
 
 `;
 export const ToasSc = styled.div`
-margin:2rem;
+magin:2rem;
 `;
 
 
