@@ -7,7 +7,7 @@ const Testimonios = () => {
     const testimonial = [
 
         {
-            "idTesti":874987,
+            "idTesti":874,
             "name": "Stalin Bustamante",
             "perfilPhoto": "https://res.cloudinary.com/dv08oqgvx/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,/v1673245739/AmazonasSprint3/1528660840812_g4bkkk.png",
             "company": "Talent.com",
@@ -16,7 +16,7 @@ const Testimonios = () => {
             "longAgo": "1 month ago"
         },
         {
-            "idTesti":874023,
+            "idTesti":874,
             "name": "Miguel Angel Garcia C.",
             "perfilPhoto": "https://res.cloudinary.com/dv08oqgvx/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,/v1673245689/AmazonasSprint3/1593636739226_bd2naj.png",
             "company": "Talent.com",
@@ -67,7 +67,7 @@ const Testimonios = () => {
                     return (
 
                         <ToasSc>
-                            <Toast key={testi.idTesti}>
+                            <Toast>
                                 <Toast.Header closeButton={false} >
                                     <Imagess src={testi.perfilPhoto} className="rounded me-2" alt="" />
                                     <strong className="me-auto">{testi.name}<br /><i>{testi.profession}<br />{testi.company}</i></strong>

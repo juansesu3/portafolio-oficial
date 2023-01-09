@@ -67,7 +67,7 @@ const Testimonios = () => {
                     return (
 
                         <ToasSc>
-                            <Toast key={testi.idTesti}>
+                            <Toast>
                                 <Toast.Header closeButton={false} >
                                     <Imagess src={testi.perfilPhoto} className="rounded me-2" alt="" />
                                     <strong className="me-auto">{testi.name}<br /><i>{testi.profession}<br />{testi.company}</i></strong>
