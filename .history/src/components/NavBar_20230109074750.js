@@ -55,10 +55,10 @@ function OffcanvasExample() {
 
               <Dropdown.Menu variant="dark">
                 <Dropdown.Item href="#/action-1" active>
-                  <Navbar.Brand><a target="_blank" rel="noreferrer" href="https://firebasestorage.googleapis.com/v0/b/portafolio-b0d04.appspot.com/o/CV%20Juan%20Sebastian%20Suarez%20Ramirez%20(7).pdf?alt=media&token=257f3f68-6da2-49a5-ab02-742e89359ee2" target="_blank" download="CV Juan Sebastian Suarez Ramirez" ><Button variant="secondary">English</Button></a></Navbar.Brand>
+                  <Navbar.Brand><a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/portafolio-b0d04.appspot.com/o/CV%20Juan%20Sebastian%20Suarez%20Ramirez%20(7).pdf?alt=media&token=257f3f68-6da2-49a5-ab02-742e89359ee2" target="_blank" download="CV Juan Sebastian Suarez Ramirez" ><Button variant="secondary">English</Button></a></Navbar.Brand>
                 </Dropdown.Item>
                 <Dropdown.Item href="#/action-2">
-                  <Navbar.Brand><a target="_blank" rel="noreferrer" href="https://firebasestorage.googleapis.com/v0/b/portafolio-b0d04.appspot.com/o/CV%20Juan%20Sebastian%20Suarez%20Ramirez%20(6).pdf?alt=media&token=8abfd99b-cb06-407b-a0a6-608b264a2252" target="_blank" download="CV Juan Sebastian Suarez Ramirez" ><Button variant="secondary">Spanish</Button></a></Navbar.Brand></Dropdown.Item>
+                  <Navbar.Brand><a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/portafolio-b0d04.appspot.com/o/CV%20Juan%20Sebastian%20Suarez%20Ramirez%20(6).pdf?alt=media&token=8abfd99b-cb06-407b-a0a6-608b264a2252" target="_blank" download="CV Juan Sebastian Suarez Ramirez" ><Button variant="secondary">Spanish</Button></a></Navbar.Brand></Dropdown.Item>
 
               </Dropdown.Menu>
             </Dropdown>

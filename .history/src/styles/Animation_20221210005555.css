@@ -25,7 +25,10 @@ body{
     
 }
 #logo{
-
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
     margin-right: auto;
     margin-left: auto;
     animation: fill 0.5s ease forwards 3s;
@@ -37,6 +40,11 @@ body{
 
 }
 
+/* #logo path:nth-child(1){
+    stroke-dasharray: 200px;
+    stroke-dasharray: 50px;
+
+} */
 #logo path:nth-child(2){
     stroke-dasharray: 572;
     stroke-dashoffset: 572;

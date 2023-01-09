@@ -2,7 +2,7 @@ import React from 'react'
 import { Conth, Fontlora, H2, Ic, /*Image, */ Par } from '../styles/Hero.style'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
-import { Animator, batch, Fade, /* FadeIn, MoveIn, */ MoveOut, ScrollContainer, ScrollPage, Sticky, /* Zoom, ZoomIn */ } from 'react-scroll-motion'
+import { Animator, batch, Fade, /* FadeIn, MoveIn, MoveOut, ScrollContainer, ScrollPage, Sticky, Zoom, ZoomIn } from 'react-scroll-motion'
 import Logo from './animations/Logo';
 import '../styles/Animation.css'
 

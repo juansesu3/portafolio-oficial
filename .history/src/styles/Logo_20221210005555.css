@@ -399,6 +399,9 @@ body{
 	animation-play-state: running;
 }
 
+/* .checkbox:checked ~ .pokeball::after {
+	animation-play-state: running;
+} */
 
 .checkbox {
 	display: none;
