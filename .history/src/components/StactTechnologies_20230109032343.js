@@ -126,7 +126,11 @@ const StactTechnologies = () => {
 
   ]
 
+
+ 
+
   const [visible, setVisible] = useState(4);
+
 
   const showMoreItems =() => {
     setVisible((prevValue) => prevValue + 4)
