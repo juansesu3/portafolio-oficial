@@ -11,7 +11,7 @@ const Testimonios = () => {
             "perfilPhoto": "https://res.cloudinary.com/dv08oqgvx/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,/v1673245739/AmazonasSprint3/1528660840812_g4bkkk.png",
             "company": "Talent.com",
             "profession": "team manager",
-            "feedback": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "feedback": "",
             "longAgo":"1 month ago"
         },
         {
@@ -19,7 +19,7 @@ const Testimonios = () => {
             "perfilPhoto": "https://res.cloudinary.com/dv08oqgvx/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,/v1673245689/AmazonasSprint3/1593636739226_bd2naj.png",
             "company": "Talent.com",
             "profession": "Team leader",
-            "feedback": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "feedback": "The student starts with no previous knowledge in the Geek Apprentices course. His effort and dedication is evidenced in his continuous study with the training field and external tools. Thus, successfully completing the apprenticeship course and moving on to the official Frontend 5 course. In the current course, the same dynamics of hard work, effort and improvement are noted, good disposition is shown in the classes and with their peers. These are the results shown up to week 4 (mid-course). Constant work and motivation brings very good results, time will prove right. In week 8 I hope to be filling out this form again and telling the end of the story. : D",
             "longAgo":"1 month ago"
         },
         {
@@ -27,7 +27,7 @@ const Testimonios = () => {
             "perfilPhoto": "https://res.cloudinary.com/dv08oqgvx/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,/v1673245610/AmazonasSprint3/1628721371128_fzohpi.png",
             "company": "Talent.com",
             "profession": "Human resource",
-            "feedback": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "feedback": "The student starts with no previous knowledge in the Geek Apprentices course. His effort and dedication is evidenced in his continuous study with the training field and external tools. Thus, successfully completing the apprenticeship course and moving on to the official Frontend 5 course. In the current course, the same dynamics of hard work, effort and improvement are noted, good disposition is shown in the classes and with their peers. These are the results shown up to week 4 (mid-course). Constant work and motivation brings very good results, time will prove right. In week 8 I hope to be filling out this form again and telling the end of the story. : D",
             "longAgo":"1 month ago"
         },
         
