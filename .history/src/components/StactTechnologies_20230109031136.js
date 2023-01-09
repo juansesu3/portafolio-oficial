@@ -166,13 +166,11 @@ const StactTechnologies = () => {
                   </Card.Body>
                 </Card>
               );          })}
-            
+            <Button><Button/>
               
         </SubContainer>
-        
+
       </Container>
-      <br/><br/><br/>
-      <center><Button onClick={showMoreItems}>Show More Technologies</Button></center>
     </div>
   )
 }

@@ -171,7 +171,7 @@ const StactTechnologies = () => {
         </SubContainer>
         
       </Container>
-      <br/><br/><br/>
+      \7
       <center><Button onClick={showMoreItems}>Show More Technologies</Button></center>
     </div>
   )

@@ -169,10 +169,8 @@ const StactTechnologies = () => {
             
               
         </SubContainer>
-        
+        <Button>Shoow More</Button>
       </Container>
-      <br/><br/><br/>
-      <center><Button onClick={showMoreItems}>Show More Technologies</Button></center>
     </div>
   )
 }

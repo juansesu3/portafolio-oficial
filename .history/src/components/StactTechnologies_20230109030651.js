@@ -131,10 +131,9 @@ const StactTechnologies = () => {
 
   const [visible, setVisible] = useState(4);
 
+  const showMoreItems
 
-  const showMoreItems =() => {
-    setVisible((prevValue) => prevValue + 4)
-  };
+
 
  /*  useEffect(() => {
 
@@ -153,7 +152,7 @@ const StactTechnologies = () => {
 
         <SubContainer>
           {
-            technologies.slice(0 , visible).map((tech) => {
+            technologies.map((tech) => {
               return (
 
                 <Card key={tech.idTech} style={{ width: '18rem', margin:'1rem' }}>
@@ -166,13 +165,9 @@ const StactTechnologies = () => {
                   </Card.Body>
                 </Card>
               );          })}
-            
-              
         </SubContainer>
-        
+
       </Container>
-      <br/><br/><br/>
-      <center><Button onClick={showMoreItems}>Show More Technologies</Button></center>
     </div>
   )
 }

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, {useState} from 'react'
 import { Imagess, Title, FlexContainer, ToasSc } from '../styles/Testimonio.style'
 import Toast from 'react-bootstrap/Toast';
 
@@ -52,6 +52,17 @@ const Testimonios = () => {
 
     ]
 
+    const [items, setItems] = useState([]);
+
+    const [visible, setVisible] = useState(4);
+
+
+
+    useEffect(() => {
+        
+        
+        
+    }, []);
 
     return (
         <div>

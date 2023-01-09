@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 //import { Carousel } from 'react-bootstrap';
 import { Container, Tiulo, SubContainer, ASC } from '../styles/StackTechnologies.style';
 import Button from 'react-bootstrap/Button';
@@ -126,22 +126,18 @@ const StactTechnologies = () => {
 
   ]
 
-
   const [items, setItems] = useState([]);
 
   const [visible, setVisible] = useState(4);
 
 
-  const showMoreItems =() => {
-    setVisible((prevValue) => prevValue + 4)
-  };
 
- /*  useEffect(() => {
+  useEffect(() => {
 
       console.log("fase de montage")
 
   }, []);
-*/
+
 
   return (
     <div>
@@ -153,7 +149,7 @@ const StactTechnologies = () => {
 
         <SubContainer>
           {
-            technologies.slice(0 , visible).map((tech) => {
+            technologies.map((tech) => {
               return (
 
                 <Card key={tech.idTech} style={{ width: '18rem', margin:'1rem' }}>
@@ -166,13 +162,9 @@ const StactTechnologies = () => {
                   </Card.Body>
                 </Card>
               );          })}
-            
-              
         </SubContainer>
-        
+
       </Container>
-      <br/><br/><br/>
-      <center><Button onClick={showMoreItems}>Show More Technologies</Button></center>
     </div>
   )
 }

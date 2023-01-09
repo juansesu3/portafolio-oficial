@@ -52,6 +52,17 @@ const Testimonios = () => {
 
     ]
 
+    const [items, setItems] = useState([]);
+
+    const [visible, setVisible] = useState(4);
+
+
+
+    useEffect(() => {
+
+        .then(testimonial) => setItems(testimonial)
+
+    }, []);
 
     return (
         <div>
