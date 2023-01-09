@@ -35,7 +35,7 @@ const Testimonios = () => {
             "name": "John Faber Florez Vasco",
             "perfilPhoto": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641348678/AmazonasSprint3/k1y96c2kl9hzcpayxnyo.png",
             "company": "Agile Innova",
-            "profession": "Software Consult",
+            "profession": "Software Consul",
             "feedback": "Sebastian has been a very committed person in his geek academy training process, he has shown sincerity in his strengths in order to acquire the necessary technical knowledge to become software development, I have seen that he has been very committed to each of the activities that have been proposed and no matter how small the challenge, it has been assumed in a thorough and professional way.I feel that there is clarity in Sebastián's purpose in the geek academy program and that I long for more people as is the value of this great opportunity to be linked to work in the ICT sector.",
             "longAgo":"2 years ago"
         },

@@ -10,7 +10,7 @@ const Testimonios = () => {
             "name": "Stalin Bustamante",
             "perfilPhoto": "https://res.cloudinary.com/dv08oqgvx/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,/v1673245739/AmazonasSprint3/1528660840812_g4bkkk.png",
             "company": "Talent.com",
-            "profession": "Team manager",
+            "profession": "team manager",
             "feedback": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
             "longAgo":"1 month ago"
         },
@@ -35,7 +35,7 @@ const Testimonios = () => {
             "name": "John Faber Florez Vasco",
             "perfilPhoto": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1641348678/AmazonasSprint3/k1y96c2kl9hzcpayxnyo.png",
             "company": "Agile Innova",
-            "profession": "Software Consult",
+            "profession": "Software Consultant",
             "feedback": "Sebastian has been a very committed person in his geek academy training process, he has shown sincerity in his strengths in order to acquire the necessary technical knowledge to become software development, I have seen that he has been very committed to each of the activities that have been proposed and no matter how small the challenge, it has been assumed in a thorough and professional way.I feel that there is clarity in Sebastián's purpose in the geek academy program and that I long for more people as is the value of this great opportunity to be linked to work in the ICT sector.",
             "longAgo":"2 years ago"
         },
@@ -64,10 +64,11 @@ const Testimonios = () => {
                         <Toast>
                             <Toast.Header closeButton={false} >
                                 <Imagess src={testi.perfilPhoto} className="rounded me-2" alt="" />
-                                <strong className="me-auto">{testi.name}<br/>{testi.profession}<br/>{testi.company}</strong>
+                                <strong className="me-auto">{testi.name}  {testi.profession}  {testi.company}</strong><br/>
                                
                                 <small>{testi.longAgo}</small>
-                                
+                                <strong className="me-auto">{testi.profession}</strong><br/>
+                                <strong className="me-auto">{testi.company}</strong><br/>
                             </Toast.Header>
                             <Toast.Body>{testi.feedback}</Toast.Body>
                         </Toast>
