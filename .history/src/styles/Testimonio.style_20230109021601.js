@@ -102,7 +102,7 @@ export const Gridbeigth = styled.div`
 `;
 
 
-export const Stylenameh5 = styled.h5`
+export const Stylenameh5 =styled.h5`
 
     font-weight: 700;
     font-style: normal;
