@@ -1,5 +1,5 @@
 const CACHE_NAME ="version-1"
-const urlsToCache = [ "./", "index.html", "offline.html"]
+const urlsToCache = [""index.html", "offline.html"]
 
 this.addEventListener('install', (event) =>{
     event.waitUntil(
