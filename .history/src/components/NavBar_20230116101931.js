@@ -60,7 +60,7 @@ function OffcanvasExample() {
                   <Navbar.Brand><a target="_blank" rel="noreferrer" href="https://firebasestorage.googleapis.com/v0/b/portafolio-b0d04.appspot.com/o/CV%20Juan%20Sebastian%20Suarez%20Ramirez.pdf?alt=media&token=8646ec3f-2a65-48cb-a924-01539871f7ff" download="CV Juan Sebastian Suarez Ramirez" ><Button variant="secondary">English</Button></a></Navbar.Brand>
                 </Dropdown.Item>
                 <Dropdown.Item href="#/action-2">
-                  <Navbar.Brand><a target="_blank" rel="noreferrer" href="https://firebasestorage.googleapis.com/v0/b/portafolio-b0d04.appspot.com/o/CV%20Juan%20Sebastian%20Suarez%20Ramirez%20(2).pdf?alt=media&token=90f3a999-5b0e-4bf6-b15a-83d1739a0b4f" download="CV Juan Sebastian Suarez Ramirez" ><Button variant="secondary">Spanish</Button></a></Navbar.Brand></Dropdown.Item>
+                  <Navbar.Brand><a target="_blank" rel="noreferrer" href="n%20Sebastian%20Suarez%20Ramirez%20(6).pdf?alt=media&token=8abfd99b-cb06-407b-a0a6-608b264a2252" download="CV Juan Sebastian Suarez Ramirez" ><Button variant="secondary">Spanish</Button></a></Navbar.Brand></Dropdown.Item>
 
               </Dropdown.Menu>
             </Dropdown>
