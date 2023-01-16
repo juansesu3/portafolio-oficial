@@ -36,7 +36,7 @@ const Formulario = () => {
                                 type="text"
                                 id="name"
                                 name="name"
-                                placeholder="Full Name / Company" />
+                                placeholder="Full Name" />
                         </Grid3conct>
                         <Grid4conct>
                             <Styleinput

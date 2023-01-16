@@ -11,7 +11,7 @@ const Formulario = () => {
     function sendEmail(e) {
 
         e.preventDefault();
-        emailjs.sendForm('service_i958hxc', 'template_8vchtw9',e.target,'TkM-BhHY_BfFk9w5m'
+        emailjs.sendForm('service_i0ag3i8', 'template_8vchtw9',e.target,'user_OCjVRCIigN0Fd76PDUpv8'
         ).then(res=>{
             console.log(res);
         }).catch(err=> console.log(err));
@@ -36,7 +36,7 @@ const Formulario = () => {
                                 type="text"
                                 id="name"
                                 name="name"
-                                placeholder="Full Name / Company" />
+                                placeholder=" Name" />
                         </Grid3conct>
                         <Grid4conct>
                             <Styleinput
