@@ -167,9 +167,9 @@ export const Anchor = styled.a`
     height: 48px;
     margin: 10px;
     &:hover{
-    color: #fd7e14 ; 
+    color: #FFFE ; 
     background-color:  #000b53;
-    border: 0.5px solid #08fdd8;
+    border: 2px solid #35faff;
     }
 `;
 const Buttdos = styled.button`

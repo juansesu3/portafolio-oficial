@@ -169,7 +169,7 @@ export const Anchor = styled.a`
     &:hover{
     color: #fd7e14 ; 
     background-color:  #000b53;
-    border: 0.5px solid #08fdd8;
+    border: 2px solid #08fdd8;
     }
 `;
 const Buttdos = styled.button`

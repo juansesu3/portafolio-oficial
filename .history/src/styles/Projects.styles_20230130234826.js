@@ -156,7 +156,7 @@ export const Anchor = styled.a`
     text-decoration:none;
     color:  #343a40;
     background-color:#08fdd8;
-    
+    border: 2px solid #0d6efd;;
     text-align:center;
     padding: 10px;
     border-radius: 10px;
@@ -167,9 +167,9 @@ export const Anchor = styled.a`
     height: 48px;
     margin: 10px;
     &:hover{
-    color: #fd7e14 ; 
+    color: #FFFE ; 
     background-color:  #000b53;
-    border: 0.5px solid #08fdd8;
+    
     }
 `;
 const Buttdos = styled.button`

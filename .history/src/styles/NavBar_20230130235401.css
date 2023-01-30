@@ -49,13 +49,12 @@
 .btn-cv{
     background-color: #08fdd8;
     font-size: 22px;
-    color:#343a40;
+    color:;
 }
 
 .navbar-light .navbar-toggler {
     background-color: #08fdd8;
     border-color: #0d6efd;
-    color: #343a40;
   }
   
   .navbar-light .navbar-toggler  .navbar-toggler-icon {
