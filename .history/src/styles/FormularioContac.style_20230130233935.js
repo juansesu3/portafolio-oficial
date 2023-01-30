@@ -90,7 +90,7 @@ background-color: #1d1d1d;
 export const Stylebtnn = styled.input`
     
 background-color: #08fdd8;
-    color: #343a40; 
+    color: #FFFE ;
     font-size: 16px;
     font-weight: bold;
     line-height: 24px;

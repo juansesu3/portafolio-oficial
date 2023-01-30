@@ -116,7 +116,7 @@ grid-column: 2/10;
 grid-row: 21/27;
 padding: 40px 24px ;
 border-radius:20px ;
-border:1px solid #08fdd8;
+border:1px solid #35faff;
 @media only screen and (min-width:920px){
     grid-column: 6/10;
     grid-row: 21/25;
