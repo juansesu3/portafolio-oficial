@@ -118,13 +118,13 @@ body{
     height: 1050px;
 }
 .color{
-    color:#08fdd8;
+    color:#35faff;
 }
 
 
 .font-style{
     font-family: 'Dongle', sans-serif;
-    color: #08fdd8;
+    color: #35faff;
     padding:2px ;
 }
 .font-style2{
@@ -140,7 +140,7 @@ body{
     font-size: 70px;
     font-weight: 600;
     letter-spacing: 4px;
-    color: #08fdd8;
+    color: #35faff;
     background-color: transparent;
     /*padding:30px ;*/
     

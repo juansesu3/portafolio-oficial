@@ -73,7 +73,7 @@ function OffcanvasExample() {
             
               <Offcanvas.Header style={{  backgroundColor: '#181818', color: 'white' }} closeButton closeVariant='white'>
                 
-              <Offcanvas.Title style={{ textAlign: 'center', color: '#08fdd8' }} id={`offcanvasNavbarLabel-expand-${expand}`}>
+              <Offcanvas.Title style={{ textAlign: 'center', color: 'v' }} id={`offcanvasNavbarLabel-expand-${expand}`}>
                   <h1>MENU</h1>
                 </Offcanvas.Title>
 

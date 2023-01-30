@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const Gridabuelo = styled.div`
     background: linear-gradient( 
 135deg
-,#1d1d1d 0%,hsl(242deg 88% 66%) 100%);
+,#35faff 0%,hsl(242deg 88% 66%) 100%);
     display: grid;
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(20, 1fr);
