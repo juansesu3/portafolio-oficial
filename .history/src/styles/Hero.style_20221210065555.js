@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Conthero = styled.div`
     margin-top: 800px;
     text-align: left;
-    background-color: #110e2d;
+    background-color: #1d1d1d;
     margin-top:56px ;
     padding: 20px;
     @media only screen and (min-width: 900px){

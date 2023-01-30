@@ -49,7 +49,7 @@ export const Gridbone = styled.div`
     font-style: normal;
     font-size: 32px;
     line-height: 40px;
-    background-color: #110e2d;
+    background-color: #1d1d1d;
     color: #ff8906;
     grid-column: 1/11;
     grid-row: 1/2;
@@ -61,13 +61,13 @@ export const Gridbone = styled.div`
 
 
 export const Gridbtow = styled.div`
-    background-color: #110e2d ;
+    background-color: #1d1d1d ;
     grid-column: 1/11;
     grid-row: 2/4;
 `;
 
 export const Gridthree = styled.div`
-    background-color: #110e2d;
+    background-color: #1d1d1d;
     grid-column: 1/11;
     grid-row: 4/6;
 `;
@@ -79,24 +79,24 @@ export const Gridbfour = styled.div`
 `;
 
 export const Gridbfive = styled.div`
-    background-color: #110e2d;
+    background-color: #1d1d1d;
     grid-column: 1/11;
     grid-row: 8/10;
 `;
 
 export const Gridbsix = styled.div`
-    background-color: #110e2d ;
+    background-color: #1d1d1d ;
     grid-column: 1/11;
     grid-row: 10/12;
 `;
 
 export const Gridbsevent = styled.div`
-    background-color: #110e2d;
+    background-color: #1d1d1d;
     grid-column: 1/11;
     grid-row: 12/14;
 `;
 export const Gridbeigth = styled.div`
-    background-color: #110e2d ;
+    background-color: #1d1d1d ;
     grid-column: 1/11;
     grid-row: 14/16;
 `;

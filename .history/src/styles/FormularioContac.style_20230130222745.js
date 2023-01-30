@@ -76,13 +76,13 @@ background-color: #1d1d1d;
 
 `;
 export const Grid5conct = styled.div`
-background-color: #110e2d;
+background-color: #1d1d1d;
     grid-column: 1/11;
     grid-row: 6/9;
 
 `;
 export const Grid6conct = styled.div`
-background-color: #110e2d ;
+background-color: #1d1d1d ;
     grid-column: 1/11;
     grid-row: 9/12;
    

@@ -85,18 +85,18 @@ export const Gridbfive = styled.div`
 `;
 
 export const Gridbsix = styled.div`
-    background-color: #110e2d ;
+    background-color: #1d1d1d ;
     grid-column: 1/11;
     grid-row: 10/12;
 `;
 
 export const Gridbsevent = styled.div`
-    background-color: #110e2d;
+    background-color: #1d1d1d;
     grid-column: 1/11;
     grid-row: 12/14;
 `;
 export const Gridbeigth = styled.div`
-    background-color: #110e2d ;
+    background-color: #1d1d1d ;
     grid-column: 1/11;
     grid-row: 14/16;
 `;
