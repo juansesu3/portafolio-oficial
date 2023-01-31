@@ -177,7 +177,7 @@ const StactTechnologies = () => {
 
       </Container>
       <br /><br /><br />
-      <center><Button style={{outline:"none !important", backgroundColor: "#08fdd8",  }} onClick={showMoreItems}><ASC  target="_blank" >Show More Technologies</ASC></Button></center>
+      <center><Button style={{outline:"none ", backgroundColor: "#08fdd8",  }} onClick={showMoreItems}><ASC  target="_blank" >Show More Technologies</ASC></Button></center>
     </div>
   )
 }

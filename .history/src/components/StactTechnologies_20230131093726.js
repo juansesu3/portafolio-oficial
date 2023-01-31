@@ -157,16 +157,14 @@ const StactTechnologies = () => {
                     alt="First slide" />
                   <Card.Body style={{
                     backgroundColor: "#181818",
-                    borderLeft: "#08fdd8 1px solid",
-                    borderRight: "#08fdd8 1px solid",
-                    borderBottom: "#08fdd8 1px solid",
-                    borderBottomLeftRadius: " 6px",
-                    borderBottomRightRadius: " 6px"
-
+                    borderLeft: "#08fdd8 2px solid",
+                    borderRight: "#08fdd8 2px solid",
+                    borderBottom: "#08fdd8 2px solid",
+                    borderBottomLeftRadius: " 6px"
                   }}>
                     <Card.Title style={{ color: "white", }}>{tech.name}</Card.Title>
 
-                    <Button style={{ backgroundColor: "#08fdd8",  }}  ><ASC href={tech.urlToLearning} target="_blank" >Learn it</ASC></Button>
+                    <Button style={{ backgroundColor: "#08fdd8", }}  ><ASC href={tech.urlToLearning} target="_blank" >Learn it</ASC></Button>
                   </Card.Body>
                 </Card>
               );
@@ -177,7 +175,7 @@ const StactTechnologies = () => {
 
       </Container>
       <br /><br /><br />
-      <center><Button style={{outline:"none !important", backgroundColor: "#08fdd8",  }} onClick={showMoreItems}><ASC  target="_blank" >Show More Technologies</ASC></Button></center>
+      <center><Button onClick={showMoreItems}>Show More Technologies</Button></center>
     </div>
   )
 }

@@ -44,7 +44,7 @@ export const ASC = styled.a`
 color: #1d1d1d;
 text-decoration:none;
 font-weight:  bold;
-
+border 
 
 
 `
