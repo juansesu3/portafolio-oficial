@@ -152,7 +152,7 @@ background-color: #1d1d1d;
  
 `;
 export const Anchor = styled.a`
-    width: 70%;
+    width: 100%;
     text-decoration:none;
     color:  #343a40;
     background-color:#08fdd8;
@@ -166,16 +166,9 @@ export const Anchor = styled.a`
     line-height: 24px;
     height: 48px;
     margin: 10px;
-
-        &:hover{
-            color: #1d1d1d;
-            font-size: 20px;
-            font-weight:  1000 ;
-            
-        }
-        &:active {
-            color: #d83bd2;
-          }
+    &:hover {
+        color: #d83bd2;
+        font-weight:  800;
     
   }
 `;

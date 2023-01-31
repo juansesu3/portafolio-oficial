@@ -21,9 +21,9 @@ const Testimonios = () => {
             "perfilPhoto": "https://res.cloudinary.com/dv08oqgvx/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,/v1673245689/AmazonasSprint3/1593636739226_bd2naj.png",
             "company": "Talent.com",
             "profession": "Team leader",
-            "feedback": "Waiting for feedback...",
-            "longAgo": "1 week ago"
-        },
+            "feedback": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "longAgo": "1 month ago"
+        },*/
         {
             "idTesti":874145,
             "name": "Sara Restrepo Arboleda",

@@ -103,7 +103,7 @@ background-color: #08fdd8;
     }
 
     &:hover {
-        color: #d83bd2;
+        color: #1d1d1d;
         font-weight:  800;
     
   }

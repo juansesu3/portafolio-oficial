@@ -21,7 +21,7 @@ const Testimonios = () => {
             "perfilPhoto": "https://res.cloudinary.com/dv08oqgvx/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,/v1673245689/AmazonasSprint3/1593636739226_bd2naj.png",
             "company": "Talent.com",
             "profession": "Team leader",
-            "feedback": "Waiting for feedback...",
+            "feedback": "Waiting for feedback",
             "longAgo": "1 week ago"
         },
         {

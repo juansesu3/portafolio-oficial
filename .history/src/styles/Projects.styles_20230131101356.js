@@ -166,16 +166,12 @@ export const Anchor = styled.a`
     line-height: 24px;
     height: 48px;
     margin: 10px;
-
+    &:hover {
         &:hover{
             color: #1d1d1d;
-            font-size: 20px;
-            font-weight:  1000 ;
+            font-weight:  800;
             
         }
-        &:active {
-            color: #d83bd2;
-          }
     
   }
 `;

@@ -94,7 +94,7 @@ const Projects = () => {
                                     </Stp><br /><br />  <br /><br />
                                     <Contbu>
                                         <Anchor href= {proyects[0].objectProyect.urlCode} target="_blank">See Code</ Anchor>
-                                        <Anchor href={proyects[0].objectProyect.urlDeploy} target="_blank">Deploy</Anchor>
+                                        <Anchor href={proyects[0].objectProyect.urlDeploy} target="_blank">Depl </Anchor>
                                     </Contbu>
                                 </div>
                             </Grid2>
@@ -112,7 +112,7 @@ const Projects = () => {
                                     <br /><br /><br /><br /><br />
                                     <Contbu>
                                         <Anchor href={proyects[1].objectProyect.urlCode}  target="_blank">See Code</ Anchor>
-                                        <Anchor href={proyects[1].objectProyect.urlDeploy} target="_blank">Deploy</Anchor>
+                                        <Anchor href={proyects[1].objectProyect.urlDeploy} target="_blank">Depl</Anchor>
                                     </Contbu>
 
                                 </div>
@@ -132,7 +132,7 @@ const Projects = () => {
 
                                     <Contbu>
                                         <Anchor href={proyects[2].objectProyect.urlCode} target="_blank">See Code</ Anchor>
-                                        <Anchor href={proyects[2].objectProyect.urlDeploy} target="_blank">Deploy</Anchor>
+                                        <Anchor href={proyects[2].objectProyect.urlDeploy} target="_blank">Depl</Anchor>
                                     </Contbu>
 
                                 </div>

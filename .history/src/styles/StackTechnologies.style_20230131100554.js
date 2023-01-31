@@ -45,12 +45,12 @@ color: #1d1d1d;
 text-decoration:none;
 font-weight:  bold;
 &:hover{
-    color: #1d1d1d;
+    color: white;
     font-weight:  800;
     
 }
 &:active {
-    color: #d83bd2;
+    color: red;
   }
 
 

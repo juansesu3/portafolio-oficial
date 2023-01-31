@@ -170,7 +170,7 @@ export const Anchor = styled.a`
         &:hover{
             color: #1d1d1d;
             font-size: 20px;
-            font-weight:  1000 ;
+            font-weight:  800 !important;
             
         }
         &:active {

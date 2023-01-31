@@ -50,7 +50,7 @@ font-weight:  bold;
     
 }
 &:active {
-    color: #d83bd2;
+    color: #6610f2;
   }
 
 

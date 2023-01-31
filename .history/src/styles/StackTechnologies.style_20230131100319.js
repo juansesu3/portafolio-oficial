@@ -46,12 +46,7 @@ text-decoration:none;
 font-weight:  bold;
 &:hover{
     color: #1d1d1d;
-    font-weight:  800;
-    
 }
-&:active {
-    color: #d83bd2;
-  }
 
 
 
