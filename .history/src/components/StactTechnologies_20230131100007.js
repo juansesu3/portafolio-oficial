@@ -166,7 +166,7 @@ const StactTechnologies = () => {
                   }}>
                     <Card.Title style={{ color: "white", }}>{tech.name}</Card.Title>
 
-                    <Button style={{ backgroundColor: "#08fdd8", border: "#343a40" }}  ><ASC href={tech.urlToLearning} target="_blank" >Learn it</ASC></Button>
+                    <Button style={{ backgroundColor: "#08fdd8",  }}  ><ASC href={tech.urlToLearning} target="_blank" >Learn it</ASC></Button>
                   </Card.Body>
                 </Card>
               );

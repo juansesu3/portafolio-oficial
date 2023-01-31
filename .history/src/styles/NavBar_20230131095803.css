@@ -50,8 +50,7 @@
     background-color: #08fdd8;
     font-size: 22px;
     color:#343a40;
-    border: #343a40;
-  
+    outline: none !important;
 }
 
 .navbar-light .navbar-toggler {
