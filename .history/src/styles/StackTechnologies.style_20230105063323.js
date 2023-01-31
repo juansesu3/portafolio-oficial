@@ -27,7 +27,7 @@ export const Tiulo = styled.div`
 font-size:40px ;
 font-weight:  bold;
 text-align: center;
-background: #110e2d;
+background: #1d1d1d;
 color: white;
 padding-bottom:10px ;
 padding-top:10px ;

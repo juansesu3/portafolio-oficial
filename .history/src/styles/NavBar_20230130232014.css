@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Mochiy+Pop+P+One&family=Press+Start+2P&display=swap');
+
+.style-nav{
+    background-color: #181818;
+    border: 1px solid #35faff;
+    border-radius: 10px;
+    width: 98%;
+   
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: white;
+
+}
+.image-logo-selfbrand{
+    width: 60px;
+    
+}
+.link{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.link:hover{
+    font-size: 35px;
+ 
+    color: #35faff;
+    background-color: transparent;
+    border: 1px solid #35faff;
+    border-radius: 10px;
+    justify-content: center;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.menu-show{
+    left:-42;
+}
+.btn-cv{
+    background-color: #08fdd8;
+    font-size: 22px;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: #29b3c4;
+    border-color: #0d6efd;
+  }
+  
+  .navbar-light .navbar-toggler  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+.nav-text{
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  text-align: center !important;
+  font-weight: 500;
+ 
+
+}
+.nav-text:hover{
+  color: #ff8906;
+  font-weight: bold;
+}
+.nav-text:active {
+   color: #00e3ff; 
+  }  
+
+.curriculumView{
+  background-color: #0d6efd !important;
+}
+

@@ -1,0 +1,49 @@
+#btn-mas{
+    display: none;
+
+}
+.btn-container{
+    position: fixed;
+    bottom: 31px;
+    di
+    margin-right: 0px;
+    text-align: center;
+    z-index: 1;
+}
+.redes a, .icon{
+    display: block;
+    text-decoration: none;
+    background-color: #35faff;
+    color: #000b53;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius:50% ;
+    box-shadow: 0px 1px 10px #000000  ;
+    transition: all  600ms ease;
+    border: 1px solid #0d6efd ;
+
+
+}
+.redes a:hover{
+    background:#000b53 ;
+    color: #35faff ;
+    border: 1px solid #35faff ;
+}
+
+.redes a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#btn-mas:checked~ .redes a{
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+
+}
+.icon{
+    cursor: pointer;
+}

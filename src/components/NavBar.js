@@ -48,7 +48,7 @@ function OffcanvasExample() {
   return (
     <>
       {[false].map((expand) => (
-        <Navbar key={expand} style={{ backgroundColor: '#000b53' }} expand={expand} className="mb-3">
+        <Navbar key={expand} style={{ backgroundColor: '#181818' }} expand={expand} className="mb-3">
           <Container fluid>
             <Dropdown>
               <Dropdown.Toggle id="dropdown-button-dark-example1" className='btn-cv'>
@@ -71,14 +71,14 @@ function OffcanvasExample() {
               placement="end"
             >
             
-              <Offcanvas.Header style={{  backgroundColor: '#000b53', color: 'white' }} closeButton closeVariant='white'>
+              <Offcanvas.Header style={{  backgroundColor: '#181818', color: 'white' }} closeButton closeVariant='white'>
                 
-              <Offcanvas.Title style={{ textAlign: 'center', color: '#00e3ff' }} id={`offcanvasNavbarLabel-expand-${expand}`}>
+              <Offcanvas.Title style={{ textAlign: 'center', color: '#08fdd8' }} id={`offcanvasNavbarLabel-expand-${expand}`}>
                   <h1>MENU</h1>
                 </Offcanvas.Title>
 
               </Offcanvas.Header>
-              <Offcanvas.Body style={{ textAlign: 'center', backgroundColor: '#000b53' }}  >
+              <Offcanvas.Body style={{ textAlign: 'center', backgroundColor: '#1d1d1d' }}  >
                 <Nav className=" flex-grow-1 pe-3">
                   <Nav.Link href="#action1" ><LinkReact to="/" class="nav-text" >Home</LinkReact></Nav.Link>
                   <br />
