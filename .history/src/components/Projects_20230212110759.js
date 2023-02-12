@@ -47,6 +47,7 @@ const Projects = () => {
                 "urlDeploy": "https://juanser.netlify.app/"
             }
         }
+
     ]
 
     return (

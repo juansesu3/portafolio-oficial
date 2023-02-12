@@ -3,7 +3,7 @@ import '../../styles/Logo.css'
 
 const Logo = () => {
   return (
-    <div >
+    <div className='cont'>
       <div className='principal-container'>
         <div className='center-container'>
          
