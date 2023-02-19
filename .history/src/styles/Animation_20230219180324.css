@@ -129,7 +129,9 @@ body{
    
     
 }
-
+@media screen {
+    
+}
 .font-style2{
     font-family: 'Dongle', sans-serif;
     font-size: 50px;

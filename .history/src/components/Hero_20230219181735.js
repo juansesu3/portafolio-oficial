@@ -48,8 +48,7 @@ const Hero = () => {
                                     <Animator animation={batch(Sticky(36, 55), Fade(), MoveOut(0, -200))}>
 
                                         <p className='font-style2'>
-                                            My purpose is to contribute and innovate with creative solutions and add
-                                            value to the world through my knowledge and skills as a developer.
+                                        My purpose is to contribute and innovate with creative solutions and add value to the world through my knowledge and skills as a developer.
                                         </p>
 
                                     </Animator>

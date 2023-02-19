@@ -125,11 +125,10 @@ body{
 .font-style{
     font-family: 'Dongle', sans-serif;
     color: #08fdd8;
-    position:absolute;
+    position;
    
     
 }
-
 .font-style2{
     font-family: 'Dongle', sans-serif;
     font-size: 50px;

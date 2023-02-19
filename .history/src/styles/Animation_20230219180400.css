@@ -5,6 +5,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
+    
+
 }
 
 body{
@@ -25,10 +28,7 @@ body{
     
 }
 #logo{
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
+
     margin-right: auto;
     margin-left: auto;
     animation: fill 0.5s ease forwards 3s;
@@ -40,11 +40,6 @@ body{
 
 }
 
-/* #logo path:nth-child(1){
-    stroke-dasharray: 200px;
-    stroke-dasharray: 50px;
-
-} */
 #logo path:nth-child(2){
     stroke-dasharray: 572;
     stroke-dashoffset: 572;
@@ -123,31 +118,41 @@ body{
     height: 1050px;
 }
 .color{
-    color:#35faff;
+    color:#08fdd8;
 }
 
 
 .font-style{
     font-family: 'Dongle', sans-serif;
-    color: #35faff;
-    padding:2px ;
+    color: #08fdd8;
+    position:absolute;
+   
+    
 }
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
 .font-style2{
     font-family: 'Dongle', sans-serif;
     font-size: 50px;
     font-weight: 400;
     letter-spacing: 1px;
     color: white;
-    /* padding:5px ; */
+   
+    position: relative;
+    
+     
 }
 .font-style3{
     font-family: 'Dongle', sans-serif;
     font-size: 70px;
     font-weight: 600;
     letter-spacing: 4px;
-    color: #35faff;
+    color: #08fdd8;
     background-color: transparent;
-    padding:30px ;
+    /*padding:30px ;*/
     
 }
 .pro-cont {
@@ -155,7 +160,7 @@ body{
 }
 
 .arrow{
-    color: #35faff;
+    color: #08fdd8;
     font-size: 40px;
     animation: bounce;
     animation-duration: 5s;

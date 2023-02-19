@@ -5,6 +5,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
+    
+
 }
 
 body{
@@ -115,13 +118,13 @@ body{
     height: 1050px;
 }
 .color{
-    color:#35faff;
+    color:#08fdd8;
 }
 
 
 .font-style{
     font-family: 'Dongle', sans-serif;
-    color: #35faff;
+    color: #08fdd8;
     padding:2px ;
 }
 .font-style2{
@@ -130,16 +133,18 @@ body{
     font-weight: 400;
     letter-spacing: 1px;
     color: white;
-    /* padding:5px ; */
+    padding:30px
+    
+     
 }
 .font-style3{
     font-family: 'Dongle', sans-serif;
     font-size: 70px;
     font-weight: 600;
     letter-spacing: 4px;
-    color: #35faff;
+    color: #08fdd8;
     background-color: transparent;
-    padding:30px ;
+    /*padding:30px ;*/
     
 }
 .pro-cont {
@@ -147,7 +152,7 @@ body{
 }
 
 .arrow{
-    color: #35faff;
+    color: #08fdd8;
     font-size: 40px;
     animation: bounce;
     animation-duration: 5s;

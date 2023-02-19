@@ -107,8 +107,8 @@ const Projects = () => {
                             </Card.Body>
                             <ListGroup className="list-group-flush"  style={{ backgroundColor:'#181818', color:'white' }}>
                                 <ListGroup.Item  style={{ backgroundColor:'#181818', color:'white' }}>Cras justo odio</ListGroup.Item>
-                               {/* <ListGroup.Item  style={{ backgroundColor:'#181818', color:'white' }}>Dapibus ac facilisis in</ListGroup.Item>
-                                <ListGroup.Item  style={{ backgroundColor:'#181818', color:'white' }}>Vestibulum at eros</ListGroup.Item>*/}
+                               {/*} <ListGroup.Item  style={{ backgroundColor:'#181818', color:'white' }}>Dapibus ac facilisis in</ListGroup.Item>
+                                <ListGroup.Item  style={{ backgroundColor:'#181818', color:'white' }}>Vestibulum at eros</ListGroup.Item>
                             </ListGroup>
                             <Card.Body  style={{ backgroundColor:'#181818', color:'white' }}>
                                 <Card.Link href={project.urlCode}>Code</Card.Link>

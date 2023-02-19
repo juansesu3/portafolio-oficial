@@ -32,12 +32,13 @@ const Hero = () => {
                                 <ScrollPage page={1}>
                                     <Animator animation={batch(Sticky(36, 60), Fade(), MoveOut())}>
                                         <span className='font-style2'>
-                                            ¡Hi there! 👋🏻<br />
+                                            ¡Hi there! 👋🏻<br />    
                                         </span>
-                                        <span className='font-style'>My name is</span><br />
+                                        <p className='font-style'>My name is</p><br />
                                         <span className='font-style2'>
-                                            Juan Sebastian Suarez Ramirez I'm a front-end web developer with an emphasis on React.js
+                                            ¡Hi there! 👋🏻<br />    
                                         </span>
+                                       
                                     </Animator>
                                 </ScrollPage>
                             </ScrollContainer>
@@ -48,7 +49,7 @@ const Hero = () => {
                                     <Animator animation={batch(Sticky(36, 55), Fade(), MoveOut(0, -200))}>
 
                                         <p className='font-style2'>
-                                            My purpose is to contribute and innovate with creative solutions and add
+                                            My purpose is to contribute to the creative solution of problems and add
                                             value to the world through my knowledge and skills as a developer.
                                         </p>
 

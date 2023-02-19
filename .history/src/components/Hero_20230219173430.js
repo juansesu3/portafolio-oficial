@@ -17,7 +17,7 @@ const Hero = () => {
                         <div>
                             <ScrollContainer>
                                 <ScrollPage page={0}>
-                                    <Animator animation={batch(Sticky(50, 35), Fade(), MoveOut())}>
+                                    <Animator animation={batch(Sticky(47.5, 35), Fade(), MoveOut())}>
                                         <Logo />
                                         <center>
                                             <div className='arrow'>
@@ -28,15 +28,14 @@ const Hero = () => {
                         </div>
                         <H2>
                             <ScrollContainer>
-                                {(window.screen.width) > 600}
+                                {(window.screen.width) > 900}
                                 <ScrollPage page={1}>
-                                    <Animator animation={batch(Sticky(36, 60), Fade(), MoveOut())}>
+                                    <Animator animation={batch(Sticky(37, 60), Fade(), MoveOut())}>
                                         <span className='font-style2'>
                                             ¡Hi there! 👋🏻<br />
-                                        </span>
-                                        <span className='font-style'>My name is</span><br />
-                                        <span className='font-style2'>
-                                            Juan Sebastian Suarez Ramirez I'm a front-end web developer with an emphasis on React.js
+                                            <span className='font-style'>My name is</span><br />
+                                            Juan Sebastian Suarez Ramirez <br />I am a highly motivated and enthusiastic junior
+front-end developer
                                         </span>
                                     </Animator>
                                 </ScrollPage>
@@ -45,11 +44,10 @@ const Hero = () => {
                         <Par>
                             <ScrollContainer>
                                 <ScrollPage page={2}>
-                                    <Animator animation={batch(Sticky(36, 55), Fade(), MoveOut(0, -200))}>
+                                    <Animator animation={batch(Sticky(44, 55), Fade(), MoveOut(0, -200))}>
 
                                         <p className='font-style2'>
-                                            My purpose is to contribute and innovate with creative solutions and add
-                                            value to the world through my knowledge and skills as a developer.
+                                        My purpose is to contribute to the creative solution of problems and add value to the world through my knowledge and skills as a developer.
                                         </p>
 
                                     </Animator>
