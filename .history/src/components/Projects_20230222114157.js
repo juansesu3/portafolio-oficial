@@ -151,12 +151,12 @@ const Projects = () => {
     ]
 
 
-    /*const [visible, setVisible] = useState(4);
+    const [visible, setVisible] = useState(4);
 
 
     const showMoreItems = () => {
         setVisible((prevValue) => prevValue + 4)
-    } ;*/
+    };
 
 
     return (

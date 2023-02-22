@@ -19,7 +19,7 @@ const Logo = () => {
         <div className='j-body-rig-4'></div>
         <div className='j-body-lef-5'></div>
         <div className='j-body-rig-5'></div>
-        <label htmlFor="animation">
+        <labelhtmlFor="animation">
       </label>
       </div>
     </div>

@@ -80,27 +80,27 @@ function OffcanvasExample() {
               </Offcanvas.Header>
               <Offcanvas.Body style={{ textAlign: 'center', backgroundColor: '#1d1d1d' }}  >
                 <Nav className=" flex-grow-1 pe-3">
-                  <Nav.Link href="#action1" ><LinkReact to="/" className="nav-text" >Home</LinkReact></Nav.Link>
+                  <Nav.Link href="#action1" ><LinkReact to="/" C="nav-text" >Home</LinkReact></Nav.Link>
                   <br />
                   <Nav.Link href="#action2">
-                    <LinkReact to="/projects" className="nav-text">Projects</LinkReact>
+                    <LinkReact to="/projects" C="nav-text">Projects</LinkReact>
                   </Nav.Link>
                   {/* <Nav.Link href="#action2"><LinkReact to="/animation" style={{ textDecoration: 'none', color: 'white' }}><h1>Animation</h1></LinkReact></Nav.Link> */}
                   <br />
                   <Nav.Link href="#action2" >
-                    <LinkReact to="/technologies" className="nav-text">Stack of Technologies</LinkReact>
+                    <LinkReact to="/technologies" C="nav-text">Stack of Technologies</LinkReact>
                   </Nav.Link>
                   <br />
                   <Nav.Link href="#action2">
-                    <LinkReact to="/testimonials" className="nav-text">Testimonials</LinkReact>
+                    <LinkReact to="/testimonials" C="nav-text">Testimonials</LinkReact>
                   </Nav.Link>
                   <br />
                   <Nav.Link href="#action2">
-                    <LinkReact to="/contact" className="nav-text">Contact Me</LinkReact>
+                    <LinkReact to="/contact" C="nav-text">Contact Me</LinkReact>
                   </Nav.Link>
                   <br />
                   <Nav.Link href="#action2">
-                    <LinkReact to="/footer" className="nav-text">Footer</LinkReact>
+                    <LinkReact to="/footer" C="nav-text">Footer</LinkReact>
                   </Nav.Link>
 
                 </Nav>

@@ -156,7 +156,7 @@ const Projects = () => {
 
     const showMoreItems = () => {
         setVisible((prevValue) => prevValue + 4)
-    } ;*/
+    };
 
 
     return (

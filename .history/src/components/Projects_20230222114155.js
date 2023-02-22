@@ -14,7 +14,7 @@ import '../styles/projects.scss'
 //import '../styles/Animation.css';
 
 // React bootstrap components 
-//import Button from 'react-bootstrap/Button';
+import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
@@ -151,12 +151,12 @@ const Projects = () => {
     ]
 
 
-    /*const [visible, setVisible] = useState(4);
+    const [visible, setVisible] = useState(4);
 
 
     const showMoreItems = () => {
         setVisible((prevValue) => prevValue + 4)
-    } ;*/
+    };
 
 
     return (

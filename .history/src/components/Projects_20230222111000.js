@@ -4,17 +4,17 @@ import React, { useState } from 'react';
 //Styled Components 
 import { ContProjetc, Anchor, Fontlora, Textstyle, Tittle } from '../styles/Projects.styles';
 import { Ic } from '../styles/Hero.style';
-//import { ASC } from '../styles/StackTechnologies.style';
+import { ASC } from '../styles/StackTechnologies.style';
 
 
 // Sass
-import '../styles/projects.scss'
+import '../styles/project'
 
 // Styles CSS3
-//import '../styles/Animation.css';
+import '../styles/Animation.css';
 
 // React bootstrap components 
-//import Button from 'react-bootstrap/Button';
+import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
@@ -151,12 +151,12 @@ const Projects = () => {
     ]
 
 
-    /*const [visible, setVisible] = useState(4);
+    const [visible, setVisible] = useState(4);
 
 
     const showMoreItems = () => {
         setVisible((prevValue) => prevValue + 4)
-    } ;*/
+    };
 
 
     return (
