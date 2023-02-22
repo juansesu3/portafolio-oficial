@@ -1,32 +1,38 @@
-//Hooks
 import React, { useState } from 'react';
 
-//Styled Components 
 import { ContProjetc, Anchor, Fontlora, Textstyle, Tittle } from '../styles/Projects.styles';
-import { Ic } from '../styles/Hero.style';
-import { ASC } from '../styles/StackTechnologies.style';
-
-// Styles CSS3
 import '../styles/Animation.css';
 
-// React bootstrap components 
+
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
+
+
+import { Animator, MoveIn, ScrollPage, ScrollContainer } from 'react-scroll-motion';
+
+import Animation from './animations/Animation';
 import Button from 'react-bootstrap/Button';
+import { ASC } from '../styles/StackTechnologies.style';
+
+import { Ic } from '../styles/Hero.style';
+
+
+
+
+
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
-// Animations
-import { Animator, MoveIn, ScrollPage, ScrollContainer } from 'react-scroll-motion';
-import Animation from './animations/Animation';
-
-//Icons
-import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { IoLogoReact, IoLogoJavascript, IoLogoSass, IoLogoCss3, IoLogoFirebase, IoLogoHtml5 } from "react-icons/io5";
 import { SiRedux, SiStyledcomponents } from "react-icons/si";
 
 
-const Projects = () => {
 
+
+const Projects = () => {
+ 
 
     const proyects = [
 
@@ -36,26 +42,26 @@ const Projects = () => {
             "nameProyect": "Cv App",
             "imageProyect": "https://res.cloudinary.com/dv08oqgvx/image/upload/v1676804481/AmazonasSprint3/jpd7afxkjzmvacx49akj.png",
             "shortDescription": " An application with the ability to create professional resume through a practical and friendly intuitive interface. This project was developed together with a development team from the Geek Academy BootCamp.",
-            "technologies": [
+            "technologies":[
                 {
                     "id": 58,
-                    "iconName": <IoLogoReact size="30" />
+                    "iconName": <IoLogoReact size="30"/>
                 },
                 {
-                    "id": 59,
-                    "iconName": <IoLogoJavascript size="30" />
+                    "id":59,
+                    "iconName":  <IoLogoJavascript size="30"/>
                 },
                 {
                     "id": 87,
-                    "iconName": <SiStyledcomponents size="30" />
+                    "iconName": <SiStyledcomponents size="30"/>
                 },
                 {
                     "id": 21,
-                    "iconName": <IoLogoFirebase size="30" />
+                    "iconName":  <IoLogoFirebase size="30"/>
                 },
                 {
                     "id": 22,
-                    "iconName": <SiRedux size="30" />
+                    "iconName":  <SiRedux size="30"/>
                 }
             ],
             "urlCode": "https://github.com/Juanpabedoyav/Demo-Day.git",
@@ -70,16 +76,16 @@ const Projects = () => {
             "shortDescription": " Block Master is the most recent content platform on the market but at the same time the most powerful. Discover all its functions in this great design project.",
             "technologies": [
                 {
-                    "id": 89,
-                    "iconName": <IoLogoJavascript size="30" />
+                    "id":89,
+                    "iconName": <IoLogoJavascript size="30"/>
                 },
                 {
                     "id": 65,
-                    "iconName": <IoLogoHtml5 size="30" />
+                    "iconName": <IoLogoHtml5 size="30"/>
                 },
                 {
                     "id": 47,
-                    "iconName": <IoLogoCss3 size="30" />
+                    "iconName":  <IoLogoCss3 size="30"/>
                 }
             ],
             "urlCode": "https://github.com/juansesu3/Bloack-Master",
@@ -94,23 +100,23 @@ const Projects = () => {
             "technologies": [
                 {
                     "id": 23,
-                    "iconName": <IoLogoReact size="30" />
+                    "iconName": <IoLogoReact size="30"/>
                 },
                 {
                     "id": 74,
-                    "iconName": <IoLogoJavascript size="30" />
+                    "iconName": <IoLogoJavascript size="30"/>
                 },
                 {
                     "id": 66,
-                    "iconName": <IoLogoHtml5 size="30" />
+                    "iconName": <IoLogoHtml5 size="30"/>
                 },
                 {
                     "id": 63,
-                    "iconName": <IoLogoCss3 size="30" />
+                    "iconName": <IoLogoCss3 size="30"/>
                 },
                 {
                     "id": 62,
-                    "iconName": <SiStyledcomponents size="30" />
+                    "iconName":  <SiStyledcomponents size="30"/>
                 }
             ],
             "urlCode": "https://github.com/juansesu3/portafolio-oficial",
@@ -125,19 +131,19 @@ const Projects = () => {
             "technologies": [
                 {
                     "id": 99,
-                    "iconName": <IoLogoReact size="30" />
+                    "iconName":  <IoLogoReact size="30"/>
                 },
                 {
                     "id": 93,
-                    "iconName": <IoLogoJavascript size="30" />
+                    "iconName": <IoLogoJavascript size="30"/>
                 },
                 {
                     "id": 34,
-                    "iconName": <IoLogoHtml5 size="30" />
+                    "iconName":  <IoLogoHtml5 size="30"/>
                 },
                 {
                     "id": 31,
-                    "iconName": <IoLogoSass size="30" />
+                    "iconName": <IoLogoSass size="30"/>
                 }
             ],
             "urlCode": "https://github.com/juansesu3/evoluciones-pokemon",
@@ -149,10 +155,15 @@ const Projects = () => {
 
     const [visible, setVisible] = useState(4);
 
+    const [ico, setIco] = useState([]);
+
+    
 
     const showMoreItems = () => {
         setVisible((prevValue) => prevValue + 4)
     };
+
+ 
 
 
     return (
@@ -197,9 +208,9 @@ const Projects = () => {
                                 <ListGroup className="list-group-flush" style={{ backgroundColor: '#181818', color: 'white' }}>
                                     <ListGroup.Item style={{ backgroundColor: '#181818', color: 'white' }}>
 
-                                        {project.technologies.map(ic => ic.iconName)}
-
-                                    </ListGroup.Item>
+                                     {project.technologies.map(ic => ic.iconName) }
+                                    
+                                        </ListGroup.Item>
                                 </ListGroup>
                                 <Card.Body style={{ backgroundColor: '#181818', color: 'white' }}>
                                     <Card.Link href={project.urlCode}>Code</Card.Link>
